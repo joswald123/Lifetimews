@@ -1,9 +1,10 @@
 import './App';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Home from './Components/Pages/Home';
-import About from './Components/Pages/About';
-import Contact from './Components/Pages/Contact';
-import ErrorPage from './Components/Pages/ErrorPage';
+import Home from '../Pages/Home';
+import About from '../Pages/About';
+import Contact from '../Pages/Contact';
+import ErrorPage from '../Pages/ErrorPage';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <div> Footer </div>
+      
+      <Footer/>
     </Router>
   );
 }

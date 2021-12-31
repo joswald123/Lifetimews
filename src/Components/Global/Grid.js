@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
 
-function Grid() {
-    return (
-        <div>
-            Grid
-        </div>
-    )
+export function Container({ fluid, children }) {
+    return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 
-export default Grid
+export function Row({ fluid, children }) {
+    return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
+}
+
+export function Col({ size, children}) {
+    return ( <div
+        className={size
+            .split(" ")
+            .map(size => "col-"+ size)
+            .join(" ")}
+        >
+            {children}
+        </div>
+    );
+    
+}
