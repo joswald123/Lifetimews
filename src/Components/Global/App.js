@@ -1,20 +1,18 @@
 import './App';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from '../Pages/Home';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
 import ErrorPage from '../Pages/ErrorPage';
 import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
     <Router>
-      {/* Navbar comes here */}
-      <nav>
-        <Link to="/"> Home </Link>
-        <Link to="/about"> AboutUs </Link>
-        <Link to="/contact"> Contact </Link>
-      </nav>
+
+      <Header/>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

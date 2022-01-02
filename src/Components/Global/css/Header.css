@@ -1,0 +1,19 @@
+.nav {
+    background-color: #fff;
+}
+
+a{
+    font-size: 0.9rem;
+    color: #000000 !important;
+}
+
+.nav-link:hover ,
+a.active {
+    color: #9CA30C !important;
+    border-bottom: 2px solid #9CA30C;
+}
+
+
+.navbar-toggler-icon {
+    color: #9CA30C !important;
+}
