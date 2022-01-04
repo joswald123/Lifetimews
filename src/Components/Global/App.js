@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from '../Pages/Home';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
+import BusinessRelationship from '../Pages/BusinessRelationship';
 
 // ----Services pages -----------------------------------
 import FinancialPlanning from '../Pages/FinancialPlanning';
@@ -27,12 +28,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/businessRelationship" element={<BusinessRelationship />} />
+
         <Route path="/financialPlanning" element={<FinancialPlanning />} />
         <Route path="/retirementPlanning" element={<RetirementPlannig />} />
         <Route path="/cashManagement" element={<CashManagement />} />
         <Route path="/investmentManagement" element={<InvestmentManagement />} />
         <Route path="/estatePlanning" element={<EstatePlanning />} />
         <Route path="/businessOwner" element={<BusinessOwner />} />
+        
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       

@@ -68,7 +68,7 @@ function Header() {
 
             <Nav.Link
               as={NavLink}
-              to="/businees"
+              to="/businessRelationship"
               className={({ isActive }) =>
                 isActive ? activeClassName : undefined
               }
