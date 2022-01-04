@@ -21,18 +21,7 @@ function FinancialPlanning() {
 
                         <Card.Body>
                             <Card.Text >
-                            Financial planning for all aspects of life…
-
-                            Goal Projections
-                            Cash, Debt and Risk Management
-                            Asset Management and Investments
-                            Planning for Retirement
-                            Retirement Income Planning
-                            Tax Planning
-                            Education Planning
-                            Estate Planning
-                            Business Planning
-                            Executive Benefits
+                            <p>{servicesImages[0].description}</p>
                             </Card.Text>
                         </Card.Body>
                     </Col>

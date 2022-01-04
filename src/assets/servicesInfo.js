@@ -10,7 +10,7 @@ export default [
     {
         "img": financialPlanning,
         "tittle": 'Comprehensive Financial Planning',
-        "description": '',
+        "description": 'Financial planning for all aspects of life… {" "} Goal Projections\n-Cash, Debt and Risk Management\nAsset Management and Investments\nPlanning for Retirement\nRetirement Income Planning\nTax Planning\nEducation Planning\nEstate Planning\nBusiness Planning\nExecutive Benefits',
     },
     {
         "img": investmentManagament,
