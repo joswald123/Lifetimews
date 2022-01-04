@@ -1,19 +1,19 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import servicesImages from '../../../assets/servicesInfo';
 
-// Assets
-// import './css/Footer.css';
-const imagenprueba = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ7T0RrgnPPNLL4z3OT4mIRvu6y2vgHpyypw&usqp=CAU';
+// Assets   
+    
 
 const title = 'What We Do';
 
 const services = [
-    { id: 1, title: 'Comprehensive Financial Planning', img: imagenprueba, link: 'urlprueba' },
-    { id: 2, title: 'Asset and Investment Management', img: imagenprueba, link: 'urlprueba' },
-    { id: 3, title: 'Cash, Debt and Risk Management', img: imagenprueba, link: 'urlprueba' },
-    { id: 4, title: 'Retirement Income Planning', img: imagenprueba, link: 'urlprueba' },
-    { id: 5, title: 'Estate Planning', img: imagenprueba, link: 'urlprueba' },
-    { id: 6, title: 'Business Owners', img: "../images/comprehensive.png", link: 'urlprueba' }
+    { id: 1, title: servicesImages[0].tittle, img: servicesImages[0].img, link: '/financialPlanning' },
+    { id: 2, title: servicesImages[1].tittle, img: servicesImages[1].img, link: '/investmentManagement' },
+    { id: 3, title: servicesImages[2].tittle, img: servicesImages[2].img, link: '/cashManagement' },
+    { id: 4, title: servicesImages[3].tittle, img: servicesImages[3].img, link: '/retirementPlanning' },
+    { id: 5, title: servicesImages[4].tittle, img: servicesImages[4].img, link: '/estatePlanning' },
+    { id: 6, title: servicesImages[5].tittle, img: servicesImages[5].img, link: '/businessOwner' }
 ]
 
 function MultipleCard() {
