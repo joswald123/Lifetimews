@@ -1,9 +1,14 @@
 import React from 'react'
 
+import MainCard from '../Global/About/MainCard'
+
 function About() {
+
     return (
         <div>
-            ABOUT US PAGE
+
+            <MainCard/>
+
         </div>
     )
 }
