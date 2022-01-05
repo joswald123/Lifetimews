@@ -58,10 +58,10 @@ function Header() {
               <NavDropdown.Item href="/retirementPlanning">
                 Planning for Retirement
               </NavDropdown.Item>
-              <NavDropdown.Item href="estatePlanning">
+              <NavDropdown.Item href="/estatePlanning">
                 Estate Planning
               </NavDropdown.Item>
-              <NavDropdown.Item href="businessOwner">
+              <NavDropdown.Item href="/businessOwner">
                 Business Owners
               </NavDropdown.Item>
             </NavDropdown>
@@ -78,7 +78,7 @@ function Header() {
 
             <Nav.Link
               as={NavLink}
-              to="/ClientAccount"
+              to="/clientAccounts"
               className={({ isActive }) =>
                 isActive ? activeClassName : undefined
               }

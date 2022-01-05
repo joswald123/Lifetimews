@@ -4,6 +4,8 @@ import Home from '../Pages/Home';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
 import BusinessRelationship from '../Pages/BusinessRelationship';
+import ClientAccounts from '../Pages/ClientAccounts';
+
 
 // ----Services pages -----------------------------------
 import FinancialPlanning from '../Pages/FinancialPlanning';
@@ -29,6 +31,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/businessRelationship" element={<BusinessRelationship />} />
+        <Route path="/clientAccounts" element={<ClientAccounts />} />
 
         <Route path="/financialPlanning" element={<FinancialPlanning />} />
         <Route path="/retirementPlanning" element={<RetirementPlannig />} />
