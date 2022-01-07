@@ -10,7 +10,7 @@ function Contact() {
         <Row>
           <Col>
             <CardHeader>
-              <h1>Contact Us</h1>
+              <h1>Contact</h1>
             </CardHeader>
           </Col>
         </Row>
