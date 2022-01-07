@@ -6,7 +6,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 
 function DoubleCard() {
     return (
-        <Container className='mt-3' fluid>
+        <Container className='mt-3' >
             <Row>
                 <Col md="6">
                     <Card className="mb-2">

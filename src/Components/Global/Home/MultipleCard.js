@@ -18,7 +18,7 @@ const services = [
 
 function MultipleCard() {
     return (
-        <Container className='mt-3 mb-3' fluid>
+        <Container className='mt-3 mb-3' >
             <h2 className='text-center mt-3'>{title}</h2>
             <Row xs={1} md={3} className="g-4">
                 {services.map(({ id, title, img, link }) => (

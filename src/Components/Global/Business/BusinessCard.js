@@ -20,7 +20,7 @@ function BusinessCard() {
     ];
 
     return (
-        <Container fluid>
+        <Container >
             <h2 className='text-center mt-3'>{title}</h2>
             <Row>
                 {business.map(({ id, img, content }) => (

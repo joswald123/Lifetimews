@@ -18,7 +18,7 @@ function MainCard() {
     ];
 
     return (
-        <Container className='mt-2 mb-2' fluid>
+        <Container className='mt-2 mb-2'>
 
             {ourTeam.map(({ id, title, img, content }) => (
 
