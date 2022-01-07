@@ -12,7 +12,7 @@ const title = "Welcome to Lifetime Capital";
 
 function HorizontalCard() {
     return (
-        <Container fluid>
+        <Container >
             <Card>
                 <h2 className='text-center mt-3'>{title}</h2>
                 <Row>
