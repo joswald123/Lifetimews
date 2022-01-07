@@ -18,38 +18,38 @@ function Footer() {
     return (
         <Carousel >
             <Carousel.Item>
-                <Container  fluid>
+                
                     <img
                         className="d-block w-100"
                         src={Retirement}
                         alt="First slide"
                     />
-                </Container>
+                
                 <Carousel.Caption>
                     <h3>{descriptionRetirementSlider}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <Container  fluid>
+                
                     <img
                         className="d-block w-100"
                         src={Peace}
                         alt="Second slide"
                     />
-                </Container>
+                
 
                 <Carousel.Caption>
                     <h3>{descriptionPeaceSlider}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <Container  fluid>
+                
                     <img
                         className="d-block w-100"
                         src={Waterbridge}
                         alt="Third slide"
                     />
-                </Container>
+                
 
                 <Carousel.Caption>
                     <h3>{descriptionWaterbridgeSlider}</h3>

@@ -1,13 +1,13 @@
 .btn {
-    color: #be00be !important;
-    border: 1px solid purple !important;
+    color: #612a65 !important;
+    border: 1px solid #612a65 !important;
     background-color: #fff !important;
 }
 
 .btn:hover {
     color: #fff !important;
-    background-color: purple !important;
-    box-shadow: 0 0 10px #be00be !important;
+    background-color: #612a65 !important;
+    box-shadow: 0 0 10px #612a65 !important;
 }
 
 /* Horizontal Card */
