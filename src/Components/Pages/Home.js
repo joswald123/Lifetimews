@@ -16,6 +16,7 @@ function Home() {
             <DoubleCard/>
             <MultipleCard/>
 
+
         </div>
     )
 }

@@ -2,16 +2,19 @@ import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap';
 
 // Assets
-// import './css/Footer.css';
+import '../css/home.css';
 
 function DoubleCard() {
     return (
-        <Container className='mt-3' >
+        <Container className='mt-5' >
             <Row>
                 <Col md="6">
                     <Card className="mb-2">
                         <Card.Body className="bgPurple">
-                            <Card.Title className='text-center'> OUR PHILOSPHY </Card.Title>
+                            <Card.Title 
+                                className='text-center icon' aria-hidden="true"> 
+                                <i className="PhilosophyIcon fas fa-hiking"></i> OUR PHILOSPHY     
+                            </Card.Title>
                             <Card.Text>
                                 Our goal is to become your trusted financial advisor. Our commitment is to
                                 provide you with straight-forward information, helping you successfully pursue
@@ -26,7 +29,10 @@ function DoubleCard() {
                 <Col xs lg="6">
                     <Card className="mb-2 bgPurple">
                         <Card.Body className="bgPurple">
-                            <Card.Title className='text-center'> VALUES BASED </Card.Title>
+                            <Card.Title 
+                                className='text-center icon' aria-hidden="true"> 
+                                <i className="fas fa-hand-holding-medical"></i>OUR PHILOSPHY
+                            </Card.Title>
                             <Card.Text>
                                 Throughout our process, we help you make decisions based on what is important
                                 to you, your life, and your financial goals. Your personal principles, values and
