@@ -1,6 +1,5 @@
 import React from "react";
-import { Card, Container, Row, Col } from "react-bootstrap";
-import CardHeader from "react-bootstrap/esm/CardHeader";
+import Form from '../Global/Contact/Form'
 
 function Contact() {
   // History function
