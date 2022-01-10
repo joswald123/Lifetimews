@@ -20,7 +20,7 @@ function ClientAccounts() {
                 
                 {clientLogin.map(({ id, title, img, link }) => (
 
-                <Col md={6} lg={4}>
+                <Col key={id} md={6} lg={4}>
                         <Card
                             key={id}
                             className="mt-2"

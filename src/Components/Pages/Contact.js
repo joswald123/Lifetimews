@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import Form from '../Global/Contact/Form'
 
 function Contact() {
@@ -8,9 +9,9 @@ function Contact() {
       <Container>
         <Row>
           <Col>
-            <CardHeader>
+            <Card.Header>
               <h1>Contact</h1>
-            </CardHeader>
+            </Card.Header>
           </Col>
         </Row>
         <Row>
