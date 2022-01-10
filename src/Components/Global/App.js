@@ -6,19 +6,14 @@ import Contact from '../Pages/Contact';
 import BusinessRelationship from '../Pages/BusinessRelationship';
 import ClientAccounts from '../Pages/ClientAccounts';
 
+// ----Services pages -----------------------------------
+import WhatWeDo from '../Pages/WhatWeDo';
 
-// ----Services pages -----------------------------------
-import FinancialPlanning from '../Pages/FinancialPlanning';
-import RetirementPlannig from '../Pages/RetirementPlanning'
-import CashManagement from '../Pages/CashManagement';
-import InvestmentManagement from '../Pages/InvestmentManagement';
-import EstatePlanning from '../Pages/EstatePlanning';
-import BusinessOwner from '../Pages/BusinessOwners';
-// ----Services pages -----------------------------------
 
 import ErrorPage from '../Pages/ErrorPage';
 import Footer from './Footer';
 import Header from './Header';
+
 
 function App() {
   return (
@@ -33,12 +28,12 @@ function App() {
         <Route path="/businessRelationship" element={<BusinessRelationship />} />
         <Route path="/clientAccounts" element={<ClientAccounts />} />
 
-        <Route path="/financialPlanning" element={<FinancialPlanning />} />
-        <Route path="/retirementPlanning" element={<RetirementPlannig />} />
-        <Route path="/cashManagement" element={<CashManagement />} />
-        <Route path="/investmentManagement" element={<InvestmentManagement />} />
-        <Route path="/estatePlanning" element={<EstatePlanning />} />
-        <Route path="/businessOwner" element={<BusinessOwner />} />
+        <Route path="/financialPlanning" element={ <WhatWeDo /> } />
+        <Route path="/retirementPlanning" element={<WhatWeDo />} />
+        <Route path="/cashManagement" element={<WhatWeDo />} />
+        <Route path="/investmentManagement" element={<WhatWeDo />} />
+        <Route path="/estatePlanning" element={<WhatWeDo />} />
+        <Route path="/businessOwner" element={<WhatWeDo />} />
         
         <Route path="*" element={<ErrorPage />} />
       </Routes>

@@ -1,23 +1,41 @@
 import React from 'react'
+import Carousel from './../Global/Carousel'
+
+import Welcome from '../Global/Home/Welcome'
+import MainCard from '../Global/MainCard'
+
 import DoubleCard from '../Global/Home/DoubleCard'
-import HorizontalCard from '../Global/Home/HorizontalCard'
 import MultipleCard from '../Global/Home/MultipleCard'
-import Carousel  from './../Global/Carousel'
 
 // Assets
 import '../Global/css/Button.css';
+//  Img card
+import imageGermaine from '../Global/images/germaine.jpg'
 
-function Home() {
+export default function Home() {
+    
+    const welcome = [
+        { id: 1, title: 'Welcome to Lifetime Capital', img: imageGermaine, content: <Welcome /> }
+    ]
+
     return (
         <div>
-            <Carousel/>
+            <Carousel />
+
+            {/* Welcome to Lifetime Capital  */}
+            {welcome.map(({ id, title, img, content }) => (
+                <MainCard
+                    key={id}
+                    title={title}
+                    img={img}
+                    content={content}
+                />
+            ))}
+
+            <DoubleCard />
             
-            <HorizontalCard/>
-            <DoubleCard/>
-            <MultipleCard/>
+            <MultipleCard />
 
         </div>
     )
 }
-
-export default Home

@@ -25,7 +25,7 @@ function BusinessCard() {
             <Row>
                 {business.map(({ id, img, content }) => (
 
-                    <Col md={6} lg={4}>
+                    <Col key={id} md={6} lg={4}>
                         <Card
                             key={id}
                             className="mt-2"
@@ -36,10 +36,8 @@ function BusinessCard() {
                                 width="200"
                                 height="180"
                             />
-                            <Card.Body>
-                                <Card.Text>
-                                    {content}
-                                </Card.Text>
+                            <Card.Body>                               
+                                {content}                               
                             </Card.Body>
                         </Card>
                     </Col>

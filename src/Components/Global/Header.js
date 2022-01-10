@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <Navbar expand="lg" sticky="top">
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="/" className="mx-auto">
           <img
             alt=""
@@ -46,22 +46,22 @@ function Header() {
             </Nav.Link>
 
             <NavDropdown title="What We Do" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/financialPlanning">
+              <NavDropdown.Item as={NavLink} to="/financialPlanning">
                 Comprehensive Financial Planning
               </NavDropdown.Item>
-              <NavDropdown.Item href="/cashManagement">
+              <NavDropdown.Item as={NavLink} to="/cashManagement">
                 Cash, Debt and Risk Management
               </NavDropdown.Item>
-              <NavDropdown.Item href="/investmentManagement">
+              <NavDropdown.Item as={NavLink} to="/investmentManagement">
                 Investment Management
               </NavDropdown.Item>
-              <NavDropdown.Item href="/retirementPlanning">
+              <NavDropdown.Item as={NavLink} to="/retirementPlanning">
                 Planning for Retirement
               </NavDropdown.Item>
-              <NavDropdown.Item href="/estatePlanning">
+              <NavDropdown.Item as={NavLink} to="/estatePlanning">
                 Estate Planning
               </NavDropdown.Item>
-              <NavDropdown.Item href="/businessOwner">
+              <NavDropdown.Item as={NavLink} to="/businessOwner">
                 Business Owners
               </NavDropdown.Item>
             </NavDropdown>

@@ -1,20 +1,24 @@
-import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
-import servicesImages from '../../../assets/servicesInfo';
+
+// Asset images
+import imgFinancial from '../images/comprehensive_financial_planning.png'
+import imgRetirement from '../images/retirement_planning.png'
+import imgCash from '../images/cash_management.png'
+import imgInvestment from '../images/investment_management.png'
+import imgEstate from '../images/estate_planning.png'
+import imgBusiness from '../images/business_owners.png'
 
 // Assets   
-    
-
 const title = 'What We Do';
 
 const services = [
-    { id: 1, title: servicesImages[0].tittle, img: servicesImages[0].img, link: '/financialPlanning' },
-    { id: 2, title: servicesImages[1].tittle, img: servicesImages[1].img, link: '/investmentManagement' },
-    { id: 3, title: servicesImages[2].tittle, img: servicesImages[2].img, link: '/cashManagement' },
-    { id: 4, title: servicesImages[3].tittle, img: servicesImages[3].img, link: '/retirementPlanning' },
-    { id: 5, title: servicesImages[4].tittle, img: servicesImages[4].img, link: '/estatePlanning' },
-    { id: 6, title: servicesImages[5].tittle, img: servicesImages[5].img, link: '/businessOwner' }
-]
+    { id: 1, title: 'COMPREHENSIVE FINANCIAL PLANNING', img: imgFinancial, link: '/financialPlanning' },
+    { id: 2, title: 'PLANNING FOR RETIREMENT?', img: imgRetirement, link: '/investmentManagement' },
+    { id: 3, title: 'CASH, DEBT AND RISK MANAGEMENT', img: imgCash, link: '/cashManagement' }, 
+    { id: 4, title: 'ASSET AND INVESTMENTS MANAGEMENT', img: imgInvestment, link: '/retirementPlanning' },
+    { id: 5, title: 'ESTATE PLANNING', img: imgEstate, link: '/estatePlanning' }, 
+    { id: 6, title: 'BUSINESS OWNERS', img: imgBusiness, link: '/businessOwner' }, 
+];
 
 function MultipleCard() {
     return (
