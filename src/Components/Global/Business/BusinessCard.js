@@ -14,8 +14,8 @@ function BusinessCard() {
     const title = "BUSINESS RELATIONSHIPS";
 
     const business = [
-        { id: 1, img: imageSecurities, content: <SecuritiesAmerica /> },
-        { id: 2, img: imageAdvisor, content: <AdvisorGroup /> },
+        { id: 1, img: imageAdvisor, content: <AdvisorGroup /> },
+        { id: 2, img: imageSecurities, content: <SecuritiesAmerica /> },        
         { id: 3, img: imageAssetMark, content: <AssetMark /> }
     ];
 
