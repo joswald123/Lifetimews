@@ -1,0 +1,16 @@
+.section-1 {
+    background-color: red;
+    color: #ffff;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 {
+    background-color: greenyellow;
+    color: #ffff;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: .6rem;
+}

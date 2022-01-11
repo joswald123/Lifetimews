@@ -11,12 +11,11 @@ export default function CashManagement() {
                 plans.
             </p>
             <p>
-                We are experienced in multiple disciplines, we help you understand the risks you face in
-                multiple areas. These include life and disability insurance needs as well as the need for
-                long term care insurance. Our goal is to assist you in determining your real risks and the
-                amount of insurance coverage, if necessary, that is required to sufficiently manage those
-                risks. When necessary, we can also help you find cost-effective strategies to pursue your
-                needs.
+                We are experienced in multiple disciplines—we help you understand the risks you face and possible 
+                solutions to mitigate those risks. Our goal is to assist you in determining your real risks and the amount 
+                of insurance coverage, if necessary, required to sufficiently manage those risks. When necessary, we can also 
+                help you find cost-effective strategies to cover your needs that can include life, disability, and long-term care 
+                insurance.
             </p>
         </div>
     )

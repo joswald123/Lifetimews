@@ -1,29 +1,52 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, FormGroup, Row } from "react-bootstrap";
+
+// Components
 import Form from '../Global/Contact/Form'
+import Map from '../Global/Contact/Map'
+
+// Images
+import backgroundImg from '../Global/images/officeAddressImg.PNG'
+
+//styles
+import "../Global/css/Contact.css"
+
 
 function Contact() {
   // History function
   return (
-    <div>
+    <div className="contact">
       <Container>
         <Row>
           <Col>
-            <Card.Header>
               <h1>Contact</h1>
-            </Card.Header>
+              <span className="line"></span>
+          </Col>
+
+        </Row>
+        <Row md={{ span: 6, offset: 3 }}>
+          <Col>
+              <img src={backgroundImg} alt='backgroundImg' className='w-100 h-60'/>
+          </Col>
+        </Row>
+        
+        <Row className="mb-5 mt-2">
+          <Col xs={6}>
+            <Map />
+          </Col>
+          <Col xs={6} >
+
+              <p>4695 Chabot Drive, Suite 200 Pleasanton, CA 94588</p>
+              <p>Phone: 925-447-0904</p>
+              <p>germaine.cordes@lifetimecapital.com</p>
+
           </Col>
         </Row>
         <Row>
           <Col>
-            <h1>Google Maps Location</h1>
-          </Col>
-          <Col>
-            <Card.Body>
-              <p>4695 Chabot Drive, Suite 200 Pleasanton, CA 94588</p>
-              <p>Phone: 925-447-0904</p>
-              <p>germaine.cordes@lifetimecapital.com</p>
-            </Card.Body>
+            <Card className="mb-5">
+              <Form />
+            </Card> 
           </Col>
         </Row>
       </Container>

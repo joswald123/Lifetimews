@@ -1,0 +1,47 @@
+.map {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.addressText {
+    font-size: .7rem;
+    background-color: #ffff;
+    padding: 2;
+    color: rgb(133, 2, 2);
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact .Container{
+    width: 1240px;
+    margin: 4rem auto;
+    padding: 4rem auto;
+}
+
+.contact span {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+/* .contact h1{
+    font-size: 3rem;
+    align-items: center;
+    color: red;
+}
+
+.contact .Container .content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin: 4rem auto;
+} */
+
+/* img {
+    width: 100;
+    height: 100vh;
+} */

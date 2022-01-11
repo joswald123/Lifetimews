@@ -28,12 +28,17 @@ function App() {
         <Route path="/businessRelationship" element={<BusinessRelationship />} />
         <Route path="/clientAccounts" element={<ClientAccounts />} />
 
-        <Route path="/financialPlanning" element={ <WhatWeDo /> } />
-        <Route path="/retirementPlanning" element={<WhatWeDo />} />
+        <Route path="/whatwedo/financialPlanning" element={ <WhatWeDo /> } />
+        <Route path="/whatwedo/retirementPlanning" element={ <WhatWeDo /> } />
+        <Route path="/whatwedo/cashManagement" element={ <WhatWeDo /> } />
+        <Route path="/whatwedo/investmentManagement" element={ <WhatWeDo /> } />
+        <Route path="/whatwedo/estatePlanning" element={ <WhatWeDo /> } />
+        <Route path="/whatwedo/businessOwner" element={ <WhatWeDo /> } />
+        {/* <Route path="/retirementPlanning" element={<WhatWeDo />} />
         <Route path="/cashManagement" element={<WhatWeDo />} />
         <Route path="/investmentManagement" element={<WhatWeDo />} />
         <Route path="/estatePlanning" element={<WhatWeDo />} />
-        <Route path="/businessOwner" element={<WhatWeDo />} />
+        <Route path="/businessOwner" element={<WhatWeDo />} /> */}
         
         <Route path="*" element={<ErrorPage />} />
       </Routes>

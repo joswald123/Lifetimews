@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "./images/logo.png";
 
 // Assets
@@ -46,22 +46,22 @@ function Header() {
             </Nav.Link>
 
             <NavDropdown title="What We Do" id="basic-nav-dropdown">
-              <NavDropdown.Item as={NavLink} to="/financialPlanning">
+              <NavDropdown.Item as={NavLink} to="/whatwedo/financialPlanning">
                 Comprehensive Financial Planning
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/cashManagement">
+              <NavDropdown.Item as={NavLink} to="/whatwedo/cashManagement">
                 Cash, Debt and Risk Management
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/investmentManagement">
+              <NavDropdown.Item as={NavLink} to="/whatwedo/investmentManagement">
                 Investment Management
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/retirementPlanning">
+              <NavDropdown.Item as={NavLink} to="/whatwedo/retirementPlanning">
                 Planning for Retirement
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/estatePlanning">
+              <NavDropdown.Item as={NavLink} to="/whatwedo/estatePlanning">
                 Estate Planning
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/businessOwner">
+              <NavDropdown.Item as={NavLink} to="/whatwedo/businessOwner">
                 Business Owners
               </NavDropdown.Item>
             </NavDropdown>
