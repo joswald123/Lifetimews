@@ -1,12 +1,13 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Container, Nav, Navbar} from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import logo from "./images/logo.png";
 
 // Assets
 import "./css/Header.css";
+import HeaderDropdown from "./HeaderDropdown";
 
-function Header() {
+export default function Header() {
   // add class "active"
   let activeClassName = "underline";
 
@@ -45,27 +46,9 @@ function Header() {
               Our Team
             </Nav.Link>
 
-            <NavDropdown title="What We Do" id="basic-nav-dropdown">
-              <NavDropdown.Item as={NavLink} to="/whatwedo/financialPlanning">
-                Comprehensive Financial Planning
-              </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/whatwedo/cashManagement">
-                Cash, Debt and Risk Management
-              </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/whatwedo/investmentManagement">
-                Investment Management
-              </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/whatwedo/retirementPlanning">
-                Planning for Retirement
-              </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/whatwedo/estatePlanning">
-                Estate Planning
-              </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/whatwedo/businessOwner">
-                Business Owners
-              </NavDropdown.Item>
-            </NavDropdown>
-
+            {/* NavD*/}
+            <HeaderDropdown/>            
+            
             <Nav.Link
               as={NavLink}
               to="/businessRelationship"
@@ -101,5 +84,3 @@ function Header() {
     </Navbar>
   );
 }
-
-export default Header;

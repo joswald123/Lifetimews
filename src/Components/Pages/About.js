@@ -1,28 +1,19 @@
 import React from 'react'
-import MainCard from '../Global/MainCard'
-
-import Germaine from '../Global/About/Germaine'
-import Jeannette from '../Global/About/Jeannette'
-import Juliana from '../Global/About/Juliana'
-
-//  Img card
-import imageGermaine from '../Global/images/germaine.jpg'
-import imageJeannette from '../Global/images/Jeannette.jpg'
+import { getAllAboutUs, getAboutUsTitle } from "../Global/data/about";
+import AboutCard from '../Global/AboutCard'
 
 export default function About() {
+
+    const aboutTitle = getAboutUsTitle();
+    const about = getAllAboutUs();
     
-    const ourTeam = [
-        { id: 1, title: 'ABOUT GERMAINE CORDES, CHFC®', img: imageGermaine, content: <Germaine /> },
-        { id: 2, title: 'ABOUT JEANNETTE GUTHRIE', img: imageJeannette, content: <Jeannette /> },
-        { id: 3, title: 'ABOUT JULIANA OSWALD', img: imageGermaine, content: <Juliana /> }
-    ];
-
     return (
-        <div>
+        <div id='about'>
 
-            {/* Welcome to Lifetime Capital  */}
-            {ourTeam.map(({ id, title, img, content }) => (
-                <MainCard
+            <h2 className='mx-auto'>{ aboutTitle }</h2>
+
+            {about.map(({ id, title, img, content }) => (
+                <AboutCard
                     key={id}
                     title={title}
                     img={img}

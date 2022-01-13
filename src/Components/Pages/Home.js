@@ -1,22 +1,23 @@
 import React from 'react'
+
+import { getAllWelcome } from "../Global/data/welcome";
+import { getAllServices, getServicesTitle } from "../Global/data/services";
+
 import Carousel from './../Global/Carousel'
-
-import Welcome from '../Global/Home/Welcome'
-import MainCard from '../Global/MainCard'
-
+import AboutCard from '../Global/AboutCard'
 import DoubleCard from '../Global/Home/DoubleCard'
 import MultipleCard from '../Global/Home/MultipleCard'
 
-// Assets
+// CSS
 import '../Global/css/Button.css';
-//  Img card
-import imageGermaine from '../Global/images/germaine.jpg'
 
 export default function Home() {
-    
-    const welcome = [
-        { id: 1, title: 'Welcome to Lifetime Capital', img: imageGermaine, content: <Welcome /> }
-    ]
+    // about Welcome
+    const welcome = getAllWelcome();
+
+    // services multiplecard
+    const servicesTitle = getServicesTitle();
+    const services = getAllServices();  
 
     return (
         <div>
@@ -24,18 +25,21 @@ export default function Home() {
 
             {/* Welcome to Lifetime Capital  */}
             {welcome.map(({ id, title, img, content }) => (
-                <MainCard
-                    key={id}
-                    title={title}
-                    img={img}
-                    content={content}
+                <AboutCard
+                    key={ id }
+                    title={ title }
+                    img={ img }
+                    content={ content }
                 />
             ))}
 
             <DoubleCard />
-            
-            <MultipleCard />
 
+            {/* services multiplecard */}
+            <MultipleCard
+                title= { servicesTitle }
+                data= { services }
+            />
 
         </div>
     )

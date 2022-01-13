@@ -11,39 +11,40 @@ import WhatWeDo from '../Pages/WhatWeDo';
 
 
 import ErrorPage from '../Pages/ErrorPage';
-import Footer from './Footer';
-import Header from './Header';
+import Layout from './Layout';
+import Service from '../Pages/Service';
 
 
 function App() {
   return (
     <Router>
 
-      <Header/>
-      
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/businessRelationship" element={<BusinessRelationship />} />
-        <Route path="/clientAccounts" element={<ClientAccounts />} />
+        <Route path="/" element={<Layout />} >
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="businessRelationship" element={<BusinessRelationship />} />
+          <Route path="clientAccounts" element={<ClientAccounts />} />
 
-        <Route path="/whatwedo/financialPlanning" element={ <WhatWeDo /> } />
-        <Route path="/whatwedo/retirementPlanning" element={ <WhatWeDo /> } />
-        <Route path="/whatwedo/cashManagement" element={ <WhatWeDo /> } />
-        <Route path="/whatwedo/investmentManagement" element={ <WhatWeDo /> } />
-        <Route path="/whatwedo/estatePlanning" element={ <WhatWeDo /> } />
-        <Route path="/whatwedo/businessOwner" element={ <WhatWeDo /> } />
-        {/* <Route path="/retirementPlanning" element={<WhatWeDo />} />
-        <Route path="/cashManagement" element={<WhatWeDo />} />
-        <Route path="/investmentManagement" element={<WhatWeDo />} />
-        <Route path="/estatePlanning" element={<WhatWeDo />} />
-        <Route path="/businessOwner" element={<WhatWeDo />} /> */}
-        
-        <Route path="*" element={<ErrorPage />} />
+          <Route path="services" element={<WhatWeDo />} />
+          <Route path="services/:serviceId" element={<Service />} />
+
+          <Route path="*" element={<ErrorPage />} />
+          {/* <Route path="*" element={ <Navigate replace to="/" /> }/> */}
+        </Route>
+
+        {/* <Route path="/services/financialPlanning" element={<WhatWeDo />} />
+        <Route path="/services/retirementPlanning" element={<WhatWeDo />} />
+        <Route path="/services/cashManagement" element={<WhatWeDo />} />
+        <Route path="/services/investmentManagement" element={<WhatWeDo />} />
+        <Route path="/services/estatePlanning" element={<WhatWeDo />} />
+        <Route path="/services/businessOwner" element={<WhatWeDo />} /> */}
+
+
       </Routes>
-      
-      <Footer/>
+
+
     </Router>
   );
 }
