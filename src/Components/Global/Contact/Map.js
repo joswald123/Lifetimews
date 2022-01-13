@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReactMapGL, {Marker} from 'react-map-gl'
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import markerPoint from '../images/markerimg.png'
 
@@ -37,6 +38,7 @@ function Map() {
             <div className='addressText'>4695 Chabot Dr Suite 200</div>
             <div className='addressText'>Pleasanton, CA 94588</div>
             <img
+                alt='LifeTime Capital location map'
                 src={markerPoint}
                 width={viewport.zoom * 5}
                 height={viewport.zoom * 5}
