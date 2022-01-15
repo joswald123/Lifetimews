@@ -54,7 +54,7 @@ function Contact() {
               <div className="imgForm"></div>
               <div className="formRight">
                 <h3 className="contactTitles">Contact Me</h3>
-                {/* <Form /> */}
+                <Form />
               </div>
             </div>
       </div>
