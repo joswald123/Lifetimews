@@ -12,7 +12,7 @@ function Footer() {
       <Container>
         <Row>
           <Col>
-            <h4 className="text-uppercase font-weight-bold">What we do</h4>
+            <h4 className="text-uppercase font-weight-bold">What we do!</h4>
             <ul className="list">
               <li>
                 <Link to="/financialPlanning">Comprehensive Financial Planning</Link>
