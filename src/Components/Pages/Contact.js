@@ -33,7 +33,7 @@ function Contact() {
 
         <Row className="mb-5 mt-2">
           <Col className="rowMap">
-            <Map />
+            {/* <Map /> */}
           </Col>
         </Row>
 
