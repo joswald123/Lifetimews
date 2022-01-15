@@ -33,7 +33,7 @@ function Contact() {
 
         <Row className="mb-5 mt-2">
           <Col className="rowMap">
-            {/* <Map /> */}
+            <Map />
           </Col>
         </Row>
 
@@ -54,7 +54,7 @@ function Contact() {
               <div className="imgForm"></div>
               <div className="formRight">
                 <h3 className="contactTitles">Contact Me</h3>
-                <Form />
+                {/* <Form /> */}
               </div>
             </div>
       </div>
