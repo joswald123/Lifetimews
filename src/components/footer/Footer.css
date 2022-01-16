@@ -1,0 +1,163 @@
+footer {
+    width: 100%;
+    background-color:#612a65;
+    color: #eee;
+    padding: 3rem 1rem;
+    font-size: .78rem; 
+    /* display: grid;
+    place-content: center;
+     */
+}
+
+footer .container{
+    max-width: 1240px;
+    margin: auto;
+    place-content: center;
+    
+}
+
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 0;
+
+}
+
+footer li {
+    padding: .2rem;
+}
+
+footer li a {
+    color: #fff !important;
+    text-decoration-line: none;
+    font-size: 0.78rem !important;
+}
+
+footer li a:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #9CA30C;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+
+.line {
+    margin-bottom: 1rem;
+}
+
+
+/* ul.list {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+
+} */
+
+/* .list li a {
+    padding: 0 0 0 0;
+    color: rgb(209, 43, 43);
+    font-size: 1rem;
+    text-decoration-line: none;
+    color: #ffff !important;
+} */
+
+footer .disclosureText {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer p a {
+    text-decoration-line: none;
+    color: #9CA30C !important;
+    font-size: .78rem !important;
+    
+
+}
+
+h4 {
+    color: #9CA30C;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+
+footer li.contactText  {
+    padding: 0;
+    margin: 0 0 0 0;
+    
+}
+
+
+.fa-phone-alt:before {
+    content: "\f2a0";
+}
+
+.fa-at:before {
+    content: "\f1fa";
+}
+.fa-map-marker-alt{
+    content: "\f3c5";
+}
+.fas {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i {
+
+    color: #ffff;
+    font-size: 30px;
+    padding-left: 2px;
+    width: 40px;
+    height: 40px;
+    /* text-align: center; */
+    /* position: relative; */
+    left: 5px;
+
+    /* top: 7.5px; */
+    /* transform:rotate(80deg); */
+}
+
+@media screen and (max-width: 992px){
+    footer .container{
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+
+    }
+
+    footer .contactText{
+        width: 100%;
+        height: auto;
+        /* color: chartreuse;
+        font-size: .5rem; */
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer .container{
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+
+    }
+
+    footer .servicesList{
+        width: 100%;
+    }
+
+    footer .contactTextCol{
+        width: 100%;
+        height: auto;
+        font-size: .70rem;
+        margin-top: 10px;
+    }
+}
+

@@ -1,0 +1,148 @@
+/* Form */
+.contactBox{
+	position: relative;
+	padding: 20px 100px;
+}
+
+.contactBox:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("/src/images/bg3.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(40px);
+	z-index: -1;
+}
+
+.contactForm{
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.imgForm{
+	background: url("/src/images/bg3.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+}
+
+.formRight{
+	padding: 10px 50px 10px 15px;
+}
+
+.contactTitles{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+textarea{
+	min-height: 150px;
+    max-height: 500px;
+}
+
+.btnForm{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #612a65;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btnForm:hover{
+    background-color: #a217ac;
+}
+
+.field:focus{
+    border: 2px solid rgba(180, 14, 125, 0.471) !important;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contactForm{
+		grid-template-columns: 1fr;
+	}
+	.imgForm{
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+      
+    .contactBox{
+        position: relative;
+        padding: 20px;
+    }
+    .formRight{
+        padding: 10px;
+    }
+}
+
+/* End Form */
+
+
+
+/* * {
+    box-sizing: border-box;
+}
+.contactForm {
+    max-width: 420px;
+    margin: 0 auto;
+}
+.Form {
+    max-width: 420px;
+    margin: 0 auto;
+}
+.contactTitles {
+    text-align: center;
+    font-weight: 500;
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #9CA30C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #9CA30C;
+} */
