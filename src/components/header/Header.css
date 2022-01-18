@@ -1,13 +1,14 @@
 .navbar {
     padding: .1rem !important;
+    border-bottom: .001px solid var(--primary-light);
 }
 
 .sticky-top {
     background-color: #ffffff;
 }
 
-a{
-    font-size: 0.9rem;
+a {
+    font-size: 1.5rem;
     color: #000000 !important;
 }
 
@@ -21,6 +22,19 @@ a.active {
     color: #9CA30C !important;
 }
 
+.basic-nav-dropdown {
+    text-transform: capitalize;
+}
+
+.dropdown-item:hover {
+    color: #9CA30C !important;
+}
+
+
+.dropdown-item:active {
+    background-color: #ffffff !important;
+}
+
 .dropdown-item.active {
-    background-color: #f1f1f1 !important;
+    background-color: #ffffff !important;
 }

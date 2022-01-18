@@ -17,19 +17,19 @@ export default function Home() {
 
     // services multiplecard
     const servicesTitle = getServicesTitle();
-    const services = getAllServices();  
+    const services = getAllServices();
 
     return (
         <div>
+            
             <Carousel />
 
-            {/* Welcome to Lifetime Capital  */}
             {welcome.map(({ id, title, img, content }) => (
                 <AboutCard
-                    key={ id }
-                    title={ title }
-                    img={ img }
-                    content={ content }
+                    key={id}
+                    title={title}
+                    img={img}
+                    content={content}
                 />
             ))}
 
@@ -37,8 +37,8 @@ export default function Home() {
 
             {/* services multiplecard */}
             <MultipleCard
-                title= { servicesTitle }
-                data= { services }
+                title={servicesTitle}
+                data={services}
             />
 
         </div>

@@ -1,40 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+:root{
+    --primary:#9CA30C;
+    --primary-light:#6b7000;
+    /* --primary-light:#37a30c; */
+    --secondary:#612a65;
+    --secondary-light:#F83292;
+
+    --gradient:linear-gradient(90deg, var(--primary), var(--primary-light));
+    --gradient-secondary:linear-gradient(90deg, var(--secondary), var(--secondary-light));
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-}
-
-html{
-    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
-body {
-    min-height: 100vh;
-    font-family: 'proxima-nova'!important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-
-}
-
-.App {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 2px);
-    max-width: 500px;
-    border: red;
-    margin: auto;
-
-}
-
-code {
-    font-family: "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+/* Title */
+.heading{
+    text-align: center;
+    background:var(--gradient);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* font-size: 2.5rem; */
+    text-transform: uppercase;
 }

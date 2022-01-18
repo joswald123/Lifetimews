@@ -9,9 +9,7 @@ export default function Layout() {
         <div>
             <Header />
             
-            <section>
-                <Outlet/>
-            </section>
+                <Outlet/>            
 
             <Footer />
         </div>

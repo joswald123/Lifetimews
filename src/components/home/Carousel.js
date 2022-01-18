@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 // img Carouser
 import Retirement from '../../images/Retirement pic.jpg';
@@ -14,7 +14,7 @@ const descriptionRetirementSlider = 'Retirement Redefined Guiding You Every Step
 const descriptionPeaceSlider = 'Helping You Achieve Financial Independence…';
 const descriptionWaterbridgeSlider = 'Holistic Financial Planning';
 
-export default function Footer() {
+export default function Carousell() {
     return (
         <Carousel >
             <Carousel.Item>

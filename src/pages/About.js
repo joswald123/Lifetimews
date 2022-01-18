@@ -10,7 +10,7 @@ export default function About() {
     return (
         <div id='about'>
 
-            <h2 className='mx-auto'>{ aboutTitle }</h2>
+            <h1 className='heading'>{ aboutTitle }</h1>
 
             {about.map(({ id, title, img, content }) => (
                 <AboutCard

@@ -8,7 +8,7 @@ export default function MultipleCard(info) {
     return (
         <Container className='mt-3 mb-3' >
 
-            <h2 className='text-center mt-3'>{title}</h2>
+            <h1 className='heading'>{title}</h1>
 
             <Row xs={1} md={3} className="g-4">
 
@@ -19,9 +19,7 @@ export default function MultipleCard(info) {
                             <Card.Body>
                                 <Card.Title className='text-center'>{dat.title}</Card.Title>
                                 <Button
-                                    as={Link} to={"/services/" + dat.link}
-                                    variant="outline-success"
-                                    size="sm">
+                                    as={Link} to={"/services/" + dat.link}>
                                     Read More +
                                 </Button>
                             </Card.Body>
