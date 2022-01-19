@@ -26,7 +26,7 @@ const services = [
     },
     {
         id: 2,
-        title: 'PLANNING FOR RETIREMENT?',
+        title: 'RETIREMENT INCOME PLANNING',
         img: imgRetirement,
         link: 'retirementPlanning',
         content: <RetirementPlanning />
@@ -40,7 +40,7 @@ const services = [
     },
     {
         id: 4,
-        title: 'ASSET AND INVESTMENTS MANAGEMENT',
+        title: 'INVESTMENTS MANAGEMENT',
         img: imgInvestment,
         link: 'investmentManagement',
         content: <InvestmentManagement />
@@ -54,7 +54,7 @@ const services = [
     },
     {
         id: 6,
-        title: 'BUSINESS OWNERS',
+        title: 'FINANCIAL PLANNING FOR BUSINESS OWNERS',
         img: imgBusiness,
         link: 'businessOwner',
         content: <Business />

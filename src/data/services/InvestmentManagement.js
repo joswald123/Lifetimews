@@ -11,7 +11,7 @@ export default function InvestmentManagement() {
                 individual goals and structured around your risk tolerance. 
             </p>
 
-            <h3>We can help you plan for your financial future with confidence and precision by</h3>
+            <h5>We can help you plan for your financial future with confidence and precision by</h5>
 
             <ul>    
                 <li> Ensuring there is a “safe” place to get money when you need it. </li>

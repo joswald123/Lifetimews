@@ -7,9 +7,9 @@ import imgPhilosophy2 from "../../images/philosophy2.png"
 
 export default function DoubleCard() {
     return (
-        <div className="philosophy" id="philosophy">
+        <div className="philosophy mt-5" id="philosophy">
 
-            <h1 className="heading"> OUR PHILOSPHY </h1>
+            {/* <h1 className="heading"> OUR PHILOSPHY </h1> */}
 
             <div className="box-container">
 
@@ -27,8 +27,8 @@ export default function DoubleCard() {
                 </div>
 
                 <div className="box">
-                    <img src={imgPhilosophy2} alt="OUR PHILOSPHY" />
-                    <h3  className='heading'>OUR PHILOSPHY</h3>
+                    <img src={imgPhilosophy2} alt="VALUES BASES" />
+                    <h3  className='heading'>VALUES BASES</h3>
                     <p>
                         Throughout our process, we help you make decisions based on what is important
                         to you, your life, and your financial goals. Your personal principles, values and

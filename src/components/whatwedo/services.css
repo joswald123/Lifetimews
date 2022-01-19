@@ -1,16 +1,97 @@
-.section-1 {
-    background-color: red;
-    color: #ffff;
+.containerServices {
+    width: 100%;
     height: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(251, 252, 249);
+    padding: 0 20px;
+    
 }
 
-.section-2 {
-    background-color: greenyellow;
-    color: #ffff;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    font-size: .6rem;
+.card-container {
+    display: flex;
+    width: 1250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.header {
+    border-right: 1px solid #ddd;
+}
+
+.description {
+    background: #fbfbfb;
+    margin: 20px 30px;
+    font-size: 1.4rem;
+}
+
+.header, .description {
+    padding: 20px;
+    
+}
+
+.header a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.header img {
+    /* border-radius: 50%; */
+    box-shadow: 0 0 0 8px rgba(247, 183, 247, .1);
+    margin: 70px 5px;
+    height: 300px;
+    width: 300px;
+}
+
+.header a:hover img {
+    box-shadow: 0 0 0 12px rgba(247, 183, 247, .3);
+}
+
+.description h2 {
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: underline;
+}
+
+.description .contact {
+    margin-top: 25px;
+}
+
+.description .contact a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #9CA30C;
+}
+
+@media (max-width:767px){
+    .card-container{
+        display: block;
+        width: 450px;
+        
+    }
+
+    .header{
+        padding: 20px 20px 5px 20px;
+        border: none;
+    }
+
+    .description {
+        padding: 0 20px 20px 20px;
+        background: transparent;
+        font-size: 1.3rem;
+    }
+
+    .description h2 {
+        margin: 0;
+    }
 }

@@ -1,23 +1,28 @@
 import React from 'react'
-import { Card, Container, Row, Col } from 'react-bootstrap'
+
+import "./services.css"
 
 export default function ServiceCard({ title, img, content }) {
     return (
-        <Container>
-            <Row>
-                <Card className='mt-2'>
-                <Col lg="12">
-                    <img src={img} alt={title} className='w-100' />
-                </Col>
-                <Col lg="12">
-                    <h2>{title}</h2>
-
-                    <Card.Body>
+        <div className='containerServices'>
+                <div className='card-container'>
+                    <div className='header'>
+                        <a href='#'>
+                            <img src={img} alt={title}/>
+                            
+                        </a>
+                    </div>
+                    <div className='description'>
+                        <h2>{title}</h2>
                         {content}
-                    </Card.Body>
-                </Col>
-                </Card>
-            </Row>
-        </Container>
+                        <div className='contact'>
+                            <a href='#'><i className="fas fa-comment-alt">contactenos</i></a>
+                            <a href='#'><i className="fas fa-comment-alt">contactenos</i></a>
+                            <a href='#'><i className="fas fa-comment-alt">contactenos</i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
     )
 }

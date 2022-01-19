@@ -18,7 +18,7 @@ export default function Footer() {
       <Container className="container">
         <Row>
           <Col xs={6} className="servicesList" >
-            <h4 className="text-uppercase font-weight-bold">{servicesTitle}</h4>
+            <h4 className="text-uppercase font-weight-bold title">{servicesTitle}</h4>
             <ul className="list">
               {services.map((dat) => (
                 <li className="nav-item" key={dat.id}>
@@ -29,7 +29,7 @@ export default function Footer() {
           </Col>
           
           <Col xs={6} className="contactTextCol" >
-            <h4>GET IN TOUCH</h4>
+            <h4 className="title">GET IN TOUCH</h4>
             <ul>
               <li className='contactText'><i className="fas fa-phone-alt"></i>
                 Phone: 925-447-0904

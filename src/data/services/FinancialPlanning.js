@@ -29,7 +29,7 @@ export default function FinancialPlanning() {
                 <li> Estate Planning </li>
                 <li> Business Planning </li>
             </ul>
-            <h4>RETIREMENT PLANNING</h4>
+            <h3>RETIREMENT PLANNING</h3>
             <h5>For most people, planning for retirement is their largest financial goal and requires careful planning. 
                 There is no cookie cutter solution, as everyone has a different set of circumstances, goals and resources. 
             </h5>
@@ -38,7 +38,7 @@ export default function FinancialPlanning() {
                 planning for retirement. Understanding the importance of investment management; cash flow; budgeting; and risk 
                 management is critical to achieving financial success in retirement. 
             </p>
-            <h3>Some common questions people have about planning for retirement…</h3>
+            <h5>Some common questions people have about planning for retirement…</h5>
 
             <ul>
                 <li> When will you be able to retire? </li>

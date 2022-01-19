@@ -14,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -25,6 +25,29 @@
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
     text-transform: uppercase;
+    font-weight: bolder;
+}
+
+p {
+    text-align: justify;
+    /* font-size: 1.34rem; */
+    margin: 20px 20px;
+}
+
+h3 {
+    color: #9CA30C;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #333;
+    font-size: 1.3rem ;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
