@@ -10,6 +10,7 @@ import { getAllServices, getServicesTitle } from "../../data/services/services";
 import "./Header.css";
 
 export default function Header() {
+  // close menu
   const [expanded, setExpanded] = useState(false);
 
   // add class "active"
