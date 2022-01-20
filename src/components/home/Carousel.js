@@ -26,7 +26,7 @@ export default function Carousell() {
                     />
                 
                 <Carousel.Caption>
-                    <h3>{descriptionRetirementSlider}</h3>
+                    <h4>{descriptionRetirementSlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -39,7 +39,7 @@ export default function Carousell() {
                 
 
                 <Carousel.Caption>
-                    <h3>{descriptionPeaceSlider}</h3>
+                    <h4>{descriptionPeaceSlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -52,7 +52,7 @@ export default function Carousell() {
                 
 
                 <Carousel.Caption>
-                    <h3>{descriptionWaterbridgeSlider}</h3>
+                    <h4>{descriptionWaterbridgeSlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
