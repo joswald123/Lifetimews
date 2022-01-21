@@ -1,0 +1,92 @@
+
+.box-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(233, 233, 233);
+}
+
+.box-container .box {
+    width: 60rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0 5px 15px #0009;
+}
+
+.box-container .box .image {
+    padding: .5rem;
+}
+
+.box-container .box .image img {
+    height: 15rem;
+    width: 18rem;
+}
+
+.box-container .box .content a {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+} 
+
+.box-container .box .content a i{
+    padding-top: 10px;
+    color: black;
+}
+
+.box-container .box .content a:hover {
+    color: #588f00;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1060px) {
+    .box-container .box {
+        width: 55rem;
+        margin: 1rem;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .box-container .box {
+        width: 50rem;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .box-container .box {
+        flex-flow: column;
+        padding-bottom: 2rem;
+        margin: 1rem;
+        width: 30rem;
+    }
+
+    .box-container .box .image {
+        width: 100%;
+        border-radius: 0 0 50px 50px;
+        text-align: center;
+    }
+
+    .box-container .box .content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+        
+}

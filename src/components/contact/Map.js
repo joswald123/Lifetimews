@@ -13,8 +13,8 @@ function Map() {
         latitude:37.69529012677492, 
         longitude:-121.90038501579956,
         zoom: 13,
-        with: "100vw",
-        height: "100vh"
+        width: "100%",
+        height: "100%"
         // pitch: 50
     });
 

@@ -1,9 +1,8 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
 
 // Components
 import Form from '../components/contact/Form'
-import Map from '../components/contact/Map'
+import CardMap from '../components/contact/CardMap'
 
 // Images
 import backgroundImg from '../images/officeAddressImg.PNG'
@@ -11,52 +10,31 @@ import backgroundImg from '../images/officeAddressImg.PNG'
 
 //styles
 import "../components/contact/Contact.css"
+import Information from "../components/contact/Information";
 
 
 export default function Contact() {
   // History function
   return (
     <div className="contact">
-      <Container>
-        <Row>
-          <Col>
-            <h1>Contact</h1>
-            <span className="line"></span>
-          </Col>
+      <div className="cover">
+        <img src={backgroundImg} alt='backgroundImg' className='w-100 h-60' />
+      </div>
 
-        </Row>
-        <Row md={{ span: 6, offset: 3 }}>
-          <Col>
-            <img src={backgroundImg} alt='backgroundImg' className='w-100 h-60' />
-          </Col>
-        </Row>
+      <div className="rowMap">
+        <CardMap />
+      </div>
 
-        <Row className="mb-5 mt-2">
-          <Col className="rowMap">
-            <Map />
-          </Col>
-        </Row>
-
-
-        <Card className="mb-5">
-          <Row className="justify-content-center align-items-center">
-            <Col xs={12} md={6}>
-              <p>4695 Chabot Drive, Suite 200 Pleasanton, CA 94588</p>
-              <p>Phone: 925-447-0904</p>
-              <p>germaine.cordes@lifetimecapital.com</p>
-            </Col>
-          </Row>
-        </Card>
-      </Container>
+      <Information />
 
       <div className="contactBox">
-            <div className="contactForm mx-auto">
-              <div className="imgForm"></div>
-              <div className="formRight">
-                <h3 className="contactTitles">Contact Me</h3>
-                <Form />
-              </div>
-            </div>
+        <div className="contactForm mx-auto">
+          <div className="imgForm"></div>
+          <div className="formRight">
+            <h3 className="contactTitles">Contact Me</h3>
+            <Form />
+          </div>
+        </div>
       </div>
 
 
