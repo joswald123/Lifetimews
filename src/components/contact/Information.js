@@ -7,7 +7,7 @@ export default function Information() {
 
     return (
         <div>
-            <div className="box-container">
+            <div className="box-information">
                 <div className="box">
 
                     <div className="image">

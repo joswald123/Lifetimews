@@ -7,6 +7,7 @@
 }
 
 .philosophy .box-container .box{
+    max-width: 49rem;
     flex:1 1 30rem;
     background:#fff;
     border-radius: .5rem;
@@ -30,7 +31,7 @@
 }
 
 .philosophy .box-container .box p{
-    font-size: 1.3rem;
+    font-size: var(--font-size-text);
     color:#666;
     padding: 1rem 0;
     text-align: justify;
