@@ -20,13 +20,13 @@
     text-align: justify;
 }
 
-h2 {
-    color: #9CA30C;
-}
+/* h2 {
+    color: var(--primary);
+} */
 
 /* Bg Double Card */
 .bgPurple {
-    background-color: #612a65;
+    background-color: var(--secondary);
     border-radius: 10px;
     color: white;
 }

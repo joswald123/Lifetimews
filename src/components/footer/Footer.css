@@ -1,3 +1,4 @@
+/* Footer */
 footer {
     width: 100%;
     background-color:#612a65;
@@ -13,7 +14,6 @@ footer .container{
     max-width: 1240px;
     margin: auto;
     place-content: center;
-    /* font-size: 1.4rem; */
     
 }
 
@@ -33,7 +33,6 @@ footer li {
 footer li a {
     color: #fff !important;
     text-decoration-line: none;
-    /* font-size: 1.4rem; */
 }
 
 footer li a:hover {
@@ -50,22 +49,6 @@ footer li a:hover {
 .line {
     margin-bottom: 1rem;
 }
-
-
-/* ul.list {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 30px;
-
-} */
-
-/* .list li a {
-    padding: 0 0 0 0;
-    color: rgb(209, 43, 43);
-    font-size: 1rem;
-    text-decoration-line: none;
-    color: #ffff !important;
-} */
 
 footer .disclosureText {
     text-align: justify;
@@ -115,10 +98,9 @@ i {
     /* position: relative; */
     left: 5px;
 
-    /* top: 7.5px; */
-    /* transform:rotate(80deg); */
 }
 
+/* Medium Devices, Desktops */
 @media screen and (max-width: 992px){
     footer .container{
         max-width: 100%;
@@ -130,8 +112,6 @@ i {
     footer .contactText{
         width: 100%;
         height: auto;
-        /* color: chartreuse;
-        font-size: .5rem; */
     }
 
     footer li a:hover {
@@ -140,6 +120,7 @@ i {
     }
 }
 
+/* Small Devices, Tablets */
 @media screen and (max-width: 600px){
     footer .container{
         max-width: 100%;
@@ -172,3 +153,4 @@ i {
     
 }
 
+/* End Footer */

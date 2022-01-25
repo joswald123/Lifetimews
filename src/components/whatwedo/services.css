@@ -1,3 +1,4 @@
+/* Service */
 .containerServices {
     width: 100%;
     height: 100%;
@@ -45,7 +46,6 @@
 }
 
 .header img {
-    /* border-radius: 50%; */
     box-shadow: 0 0 0 8px rgba(247, 183, 247, .1);
     margin: 70px 5px;
     height: 300px;
@@ -57,8 +57,6 @@
 }
 
 .description .title_h2 {
-    /* font-weight: bolder;
-    text-align: center; */
     padding: 10px 10px 30px;
     text-decoration: underline;
 }
@@ -67,7 +65,7 @@
     margin-top: 25px;
 }
 
-
+/* Small Devices, Tablets */
 @media (max-width:767px){
     .card-container{
         display: block;
@@ -76,17 +74,18 @@
     }
 
     .header{
-        padding: 20px 20px 5px 20px;
+        padding: 20px 20px 0 20px;
         border: none;
     }
 
     .description {
         padding: 0 20px 20px 20px;
         background: transparent;
-        font-size: 1.3rem;
     }
 
     .description h2 {
         margin: 0;
     }
 }
+
+/* End Service */

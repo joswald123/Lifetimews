@@ -19,7 +19,7 @@ export default function Information() {
                         <a href="www.google.com" > <i className="fas fa-at"></i> germaine.cordes@lifetimecapital.com</a>
                         <a href="www.google.com" > <i className="fas fa-map-marker-alt"> </i> 4695 Chabot Drive, Suite 200 Pleasanton, CA
                             94588</a>
-                        <a href="www.google.com" > <i className="fas fa-linkedin-in"></i> LifeTime Capital </a>
+                        {/* <a href="www.google.com" > <i className="fas fa-linkedin-in"></i> LifeTime Capital </a> */}
                     </div>
 
                 </div>
