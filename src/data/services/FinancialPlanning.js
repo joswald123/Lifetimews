@@ -17,7 +17,7 @@ export default function FinancialPlanning() {
                 Our goal is to put together a financial plan so that when you need money, for whatever the reason, 
                 there is a smart place to get it—a place where you can rely on it being there when you need it. 
             </p>
-            <h5>Our process includes Financial Planning for all aspects of life…</h5>
+            <h5 className='title_h5'>Our process includes Financial Planning for all aspects of life…</h5>
             <ul>
                 <li> Help establish your Goals and Objective </li>
                 <li> Review Cashflow and Debt </li>
@@ -29,8 +29,8 @@ export default function FinancialPlanning() {
                 <li> Estate Planning </li>
                 <li> Business Planning </li>
             </ul>
-            <h3>RETIREMENT PLANNING</h3>
-            <h5>For most people, planning for retirement is their largest financial goal and requires careful planning. 
+            <h3 className='title_h3'>RETIREMENT PLANNING</h3>
+            <h5 className='title_h5'>For most people, planning for retirement is their largest financial goal and requires careful planning. 
                 There is no cookie cutter solution, as everyone has a different set of circumstances, goals and resources. 
             </h5>
             <p>
@@ -38,7 +38,7 @@ export default function FinancialPlanning() {
                 planning for retirement. Understanding the importance of investment management; cash flow; budgeting; and risk 
                 management is critical to achieving financial success in retirement. 
             </p>
-            <h5>Some common questions people have about planning for retirement…</h5>
+            <h5 className='title_h5'>Some common questions people have about planning for retirement…</h5>
 
             <ul>
                 <li> When will you be able to retire? </li>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function RetirementIncomePlanning() {
     return (
         <div>
-            <h5>
+            <h5 className='title_h5'>
                 Retirement income planning is complex with a wide range of solutions.
             </h5>
             <p>
@@ -18,7 +18,7 @@ export default function RetirementIncomePlanning() {
                 By looking at a range of solutions, we will work with you to pick the best one that meets your financial and 
                 psychological needs in your retirement.
             </p>
-            <h5>Specifically, we be able to offer customized advice on the following:</h5>
+            <h5 className='title_h5'>Specifically, we be able to offer customized advice on the following:</h5>
             <ul>
                 <li> Social Security. What is the best way to take my Social Security and what pitfalls to watch out for?</li>
                 <li> How does your income affect taxation of your Social Security Benefits or the premiums you pay for Medicare?</li>
@@ -55,7 +55,7 @@ export default function RetirementIncomePlanning() {
                 <li> Long Term Care—planning for it and insurance pros and cons. </li>
             </ul>
 
-            <h3>TAX PLANNING</h3>
+            <h3 className='title_h3'>TAX PLANNING</h3>
             <p>
                 Tax planning is an essential component of wealth management. Proper advice and skilled planning can provide the 
                 roadmaps for cost savings and wealth creation. We can collaborate with your existing accountant or recommend 

@@ -25,9 +25,11 @@
 }
 
 .philosophy .box-container .box h3{
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: var(--font-size-title-h4);
     color:#333;
     padding-top: 1rem;
+    
 }
 
 .philosophy .box-container .box p{

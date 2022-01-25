@@ -9,7 +9,8 @@ export default function Form() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+        // emailjs.sendForm('service_d28nmvz', 'template_i4gxbkl', form.current, 'user_JIk8SfrGAqA2uYzmqAeXh')
+            emailjs.sendForm('service_c1au3dn', 'template_boxhcv7', form.current, 'user_cfPKeygtI64xSzQa8OooC')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -18,35 +19,10 @@ export default function Form() {
     };
 
 
-    // const [formData, setFormData] = useState({
-    //     first_name: "",
-    //     last_name: "",
-    //     email: "",
-    //     message: ""
-
-    // })
-
-    // let handleAdd = (event) => {
-    //     const text = event.target.value;
-    //     setFormData(text);
-    // };
-
-    // let handleAdd = async e =>{
-    //     await this.setState({
-    //         text: e.target.value
-    //     })
-    // }
-
-    let handleSubmit = e => {
-        console.log("funcionando")
-    }
-
     return (
         <form ref={form} onSubmit={sendEmail}>
             <input
                 className="field"
-                // onChange={handleAdd}
-                // value={formData.first_name}
                 type="text"
                 id="fname"
                 name="first_name"
@@ -55,8 +31,6 @@ export default function Form() {
 
             <input
                 className="field"
-                // onChange={handleAdd}
-                // value={formData.last_name}
                 type="text"
                 id="lname"
                 name="last_name"
@@ -65,8 +39,6 @@ export default function Form() {
 
             <input
                 className="field"
-                // onChange={handleAdd}
-                // value={formData.email}
                 type="email"
                 id="email"
                 name="email"
@@ -75,15 +47,12 @@ export default function Form() {
 
             <textarea
                 className="field"
-                // onChange={handleAdd}
-                // value={formData.message}
                 id="subject"
                 name="message"
                 placeholder="Write something.."
             ></textarea>
             <input
                 className="btnForm"
-                // onClick={handleSubmit}
                 type="submit"
                 value="Submit"
             />

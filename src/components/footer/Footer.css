@@ -13,7 +13,7 @@ footer .container{
     max-width: 1240px;
     margin: auto;
     place-content: center;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     
 }
 
@@ -33,18 +33,18 @@ footer li {
 footer li a {
     color: #fff !important;
     text-decoration-line: none;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
 }
 
 footer li a:hover {
     padding-bottom: 5px;
-    border-bottom: 3px solid #9CA30C;
+    border-bottom: 3px solid var(--primary);
 }
 
 .bottom {
     text-align: center;
     padding-top: 1rem;
-    
+    color: #fff;
 }
 
 .line {
@@ -70,28 +70,18 @@ footer li a:hover {
 footer .disclosureText {
     text-align: justify;
     text-justify: inter-word;
-    font-size: 1.4rem;
-    margin: 0;
+    color: #fff;
+    margin: 15px 0 15px;
 }
 
 footer a {
     text-decoration-line: none;
-    color: #9CA30C !important;
-    font-size: 1.4rem !important;
-    
-
-}
-
-.title {
-    color: #9CA30C;
-    font-size: 1.6rem !important;
-    font-weight: bold !important;
 }
 
 footer li.contactText  {
     padding: 0;
-    margin: 0 0 0 0;
-    
+    margin: 0;
+    line-height:0    
 }
 
 
@@ -173,6 +163,11 @@ i {
     footer li a:hover {
         padding-bottom: 3px;
         border-bottom: 3px solid #9CA30C;
+    }
+
+    footer .disclosureText {
+        margin: 10px;
+        word-spacing: 0;
     }
     
 }

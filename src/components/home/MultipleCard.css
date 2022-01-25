@@ -45,6 +45,7 @@
 .text h3 {
     text-transform: uppercase;
     text-align: center ;
+    font-size: var(--font-size-title-h4);
 }
 @media screen and (min-width: 1600px) {
     .serviceGrid {

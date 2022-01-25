@@ -8,19 +8,19 @@ export default function MultipleCard(info) {
 
     return (
         <div>
-            <h1 className="title_h1">{title}</h1>
+            <h1 className="title_h1 mt-5 mb-3">{title}</h1>
             <div className="servicesHome">
                 <main className="serviceGrid">
                     {data.map((dat) => (
                         <article key={dat.id}>
                             <img src={dat.img} alt={dat.title} />
                             <div className="text">
-                                <h3>{dat.title}</h3>                              
+                                <h3 className='mt-4 mb-4'>{dat.title}</h3>                              
                                 <Link
                                     className='btn'
                                     to={"/services/" + dat.link}
                                 >
-                                    Read More +
+                                    Read More 
                                 </Link>
                             </div>
                         </article>
