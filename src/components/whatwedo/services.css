@@ -29,7 +29,7 @@
 .description {
     background: #fbfbfb;
     margin: 20px 30px;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
 }
 
 .header, .description {
