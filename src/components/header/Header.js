@@ -21,104 +21,106 @@ export default function Header() {
   const services = getAllServices();
 
   return (
-    <Navbar expanded={expanded} expand="lg" sticky="top">
-      <Container fluid>
-        <Navbar.Brand href="/" className="mx-auto">
-          <img
-            alt=""
-            src={logo}
-            width="250"
-            height="70"
-            className="d-inline-block align-top"
-          />{" "}
-        </Navbar.Brand>
-        <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto">
-            <Nav.Link
-              as={NavLink}
-              onClick={() => setExpanded(false)}
-              to="/"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }
-            >
-              Home
-            </Nav.Link>
+    <header className="sticky-top">
+      <Navbar expanded={expanded} expand="lg">
+        <Container fluid>
+          <Navbar.Brand href="/" className="mx-auto">
+            <img
+              alt=""
+              src={logo}
+              width="250"
+              height="70"
+              className="d-inline-block align-top"
+            />{" "}
+          </Navbar.Brand>
+          <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mx-auto">
+              <Nav.Link
+                as={NavLink}
+                onClick={() => setExpanded(false)}
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? activeClassName : undefined
+                }
+              >
+                Home
+              </Nav.Link>
 
-            <Nav.Link
-              as={NavLink}
-              onClick={() => setExpanded(false)}
-              to="/about"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }
-            >
-              Our Team
-            </Nav.Link>
+              <Nav.Link
+                as={NavLink}
+                onClick={() => setExpanded(false)}
+                to="/about"
+                className={({ isActive }) =>
+                  isActive ? activeClassName : undefined
+                }
+              >
+                Our Team
+              </Nav.Link>
 
 
-          {/*  */}
-            <NavDropdown title={servicesTitle} id="basic-nav-dropdown" >
-              {services.map((dat) => (
+              {/*  */}
+              <NavDropdown title={servicesTitle} id="basic-nav-dropdown" >
+                {services.map((dat) => (
+                  <NavDropdown.Item
+                    as={NavLink}
+                    onClick={() => setExpanded(false)}
+                    key={dat.id}
+                    to={"/services/" + dat.link}
+                    className={({ isActive }) =>
+                      isActive ? activeClassName : undefined
+                    }
+                  >
+                    {dat.title}
+                  </NavDropdown.Item>
+                ))}
                 <NavDropdown.Item
                   as={NavLink}
                   onClick={() => setExpanded(false)}
-                  key={dat.id}
-                  to={"/services/" + dat.link}
-                  className={({ isActive }) =>
-                    isActive ? activeClassName : undefined
-                  }
+                  to="/services"
                 >
-                  {dat.title}
+                  All Services
                 </NavDropdown.Item>
-              ))}
-              <NavDropdown.Item
+              </NavDropdown>
+              {/*  */}
+
+
+              <Nav.Link
                 as={NavLink}
                 onClick={() => setExpanded(false)}
-                to="/services"
+                to="/businessRelationship"
+                className={({ isActive }) =>
+                  isActive ? activeClassName : undefined
+                }
               >
-                All Services
-              </NavDropdown.Item>
-            </NavDropdown>
-          {/*  */}
+                Business Relationship
+              </Nav.Link>
 
+              <Nav.Link
+                as={NavLink}
+                onClick={() => setExpanded(false)}
+                to="/clientAccounts"
+                className={({ isActive }) =>
+                  isActive ? activeClassName : undefined
+                }
+              >
+                Client Accounts
+              </Nav.Link>
 
-            <Nav.Link
-              as={NavLink}
-              onClick={() => setExpanded(false)}
-              to="/businessRelationship"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }
-            >
-              Business Relationship
-            </Nav.Link>
-
-            <Nav.Link
-              as={NavLink}
-              onClick={() => setExpanded(false)}
-              to="/clientAccounts"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }
-            >
-              Client Accounts
-            </Nav.Link>
-
-            <Nav.Link
-              as={NavLink}
-              onClick={() => setExpanded(false)}
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? activeClassName : undefined
-              }
-            >
-              Contact Us
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+              <Nav.Link
+                as={NavLink}
+                onClick={() => setExpanded(false)}
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? activeClassName : undefined
+                }
+              >
+                Contact Us
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </header>
   );
 }
