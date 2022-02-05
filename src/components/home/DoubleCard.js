@@ -7,7 +7,7 @@ import imgPhilosophy2 from "../../images/philosophy2.png"
 
 export default function DoubleCard() {
     return (
-        <div className="philosophy mt-5" id="philosophy">
+        <div className="philosophy mt-2" id="philosophy">
 
             {/* <h1 className="heading"> OUR PHILOSPHY </h1> */}
 
@@ -15,7 +15,7 @@ export default function DoubleCard() {
 
                 <div className="box">
                     <img src={imgPhilosophy} alt="OUR PHILOSPHY" />
-                    <h3 className='heading'>OUR PHILOSPHY</h3>
+                    <h3 className='heading'>OUR PHILOSOPHY</h3>
                     <p>
                         Our goal is to become your trusted financial advisor. Our commitment is to
                         provide you with straight-forward information, helping you successfully pursue

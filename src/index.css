@@ -26,6 +26,15 @@
     font-size: var(--font--text);
 }
 
+/* background */
+body {
+    /* background: url('/src/images/bg.jpg') 0 0 repeat scroll #f4f4f9; */
+    background: url('/src/images/bg2.png') 0 0 repeat scroll #f4f4f9;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.3);
+}
 
 /* Title */
 .title_h1{
