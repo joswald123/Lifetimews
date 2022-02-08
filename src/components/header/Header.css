@@ -1,6 +1,5 @@
 .navbar {
     padding: .1rem !important;
-    border-bottom: .001px solid var(--primary-light);
 }
 
 .sticky-top {
