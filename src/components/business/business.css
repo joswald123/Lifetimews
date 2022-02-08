@@ -1,7 +1,7 @@
 .container__cards {
     max-width: 1200px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -81,4 +81,10 @@
 
 .cbox:hover .card-body{
     padding: 40px;
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    
 }

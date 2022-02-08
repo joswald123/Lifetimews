@@ -32,10 +32,6 @@ body {
     background: url('/src/images/bg2.png') 0 0 repeat scroll #f4f4f9;
 }
 
-main {
-    background: rgba(255, 255, 255, 0.3);
-}
-
 /* Title */
 .title_h1{
     display: block;
@@ -104,6 +100,7 @@ p {
 a {
     font-size: var(--font-size-text);
     color: var(--primary) !important;
+    text-decoration: none !important;
 }
 
 li {

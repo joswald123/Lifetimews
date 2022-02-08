@@ -12,11 +12,11 @@ export default function ClientAccountsCard() {
 
 
     return (
-  
+
         <div>
-            <di>
-            <h1 className='title_h1 mt-5 pt-5'>Clients Accounts</h1>
-            </di>
+            <div>
+            <h1 className='title_h1 mt-3 pt-5'>Clients Accounts</h1>
+            </div>
             <div className='container__cards'>
             <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
                 <div className='cbox'>
