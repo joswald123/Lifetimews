@@ -67,6 +67,22 @@ footer li.contactText  {
     line-height:0    
 }
 
+.container .content a {
+    display: block;
+    font-size: 1rem;
+    color: #fff !important;
+    text-decoration: none;
+} 
+
+.container .content a i{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.container .content a:hover {
+    color: var(--primary) !important;
+}
+
 
 .fa-phone-alt:before {
     content: "\f2a0";
