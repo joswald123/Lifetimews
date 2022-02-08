@@ -19,7 +19,7 @@ export default function ClientAccountsCard() {
             </di>
             <div className='container__cards'>
             <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
-                <div className='box'>
+                <div className='cbox'>
                     <div className='cover'>
                         <img src={imageAssetMark} width={250} height={150} />
                         <div className='img_back'></div>
@@ -30,7 +30,7 @@ export default function ClientAccountsCard() {
             </a>
 
             <a href={"https://www.netxinvestor.com/nxi/login"}>
-                <div className='box'>
+                <div className='cbox'>
                     <div className='cover'>
                         <img src={imageSecurities} width={250} height={150} />
                         <div className='img_back'></div>
@@ -42,7 +42,7 @@ export default function ClientAccountsCard() {
 
 
             <a href={"https://my.voya.com/voyassoui/index.html?domain=voyaretirement.voya.com#/login-pweb"}>
-                <div className='box'>
+                <div className='cbox'>
                     <div className='cover'>
                         <img src={imageVoya} width={250} height={150} />
                         <div className='img_back'></div>

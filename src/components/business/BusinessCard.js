@@ -17,7 +17,7 @@ export default function BusinessCard({ id, img, content, title }) {
     return (
 
         <div className='container__cards'>
-            <div className='box'>
+            <div className='cbox'>
                 <div className='cover'>
                     <img src={imageAdvisor} width={250} height={150} />
                     <div className='img_back_business'></div>
@@ -25,7 +25,7 @@ export default function BusinessCard({ id, img, content, title }) {
                 {/* <h2 className='card-title'>Advisor Group</h2> */}
                 <div className='box-body'><AdvisorGroup /></div>
             </div>
-            <div className='box'>
+            <div className='cbox'>
                 <div className='cover'>
                     <img src={imageSecurities} width={250} height={150} />
                     <div className='img_back_business'></div>
@@ -33,7 +33,7 @@ export default function BusinessCard({ id, img, content, title }) {
                 {/* <h2 className='card-title'>Securities America</h2> */}
                 <div className='box-body'><SecuritiesAmerica /></div>
             </div>
-            <div className='box'>
+            <div className='cbox'>
                 <div className='cover'>
                     <img src={imageAssetMark} width={250} height={150} />
                     <div className='img_back_business'></div>

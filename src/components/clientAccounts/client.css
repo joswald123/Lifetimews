@@ -10,29 +10,29 @@
     padding-bottom: 20px;
 }
 
-.box a {
+/* .cbox a {
     text-decoration: none;
-}
+} */
 
-.box {
+.cbox {
     width: 360px;
     margin: 10px;
 
 }
 
-.box:hover {
+.cbox:hover {
     width: 420px;
     margin: 10px;
     transition: all 300ms;
 }
-.box .cover {
+.cbox .cover {
     width: 100%;
     height: 250px;
     position: relative;
     overflow: hidden;
 }
 
-.box .cover img{
+.cbox .cover img{
     width: 250px;
     display: block;
     margin: auto;
@@ -43,12 +43,12 @@
     transition: all 400ms;
 }
 
-.box:hover .cover img{
+.cbox:hover .cover img{
     top: 0px;
     filter: none;
 }
 
-.box .img_back {
+.cbox .img_back {
     width: 100%;
     height: 200px;
     position: absolute;
@@ -59,30 +59,29 @@
     transition: all 400ms;
 }
 
-.box:nth-of-type(1) .img_back {
+.cbox:nth-of-type(1) .img_back {
     background-image: url(../../images/bg-business.jpg);
 
 }
-.box:nth-of-type(2) .img_back {
+.cbox:nth-of-type(2) .img_back {
     background-image: url(../../images/bg-business.jpg);
 
 }
-.box:nth-of-type(3) .img_back {
+.cbox:nth-of-type(3) .img_back {
     background-image: url(../../images/bg-business.jpg);
 
 }
 
-.box:hover .img_back{
+.cbox:hover .img_back{
     bottom: -40px;
 }
 
-.box .box-title {
+.cbox .box-title {
     background:#fff;
     margin-top: -10px;
     padding: 20px;
     justify-content: center;    
     border-radius: 0px 0px 20px 20px;
-    /* cursor: pointer; */
     transition: all 300ms;
     text-decoration: none;
     
@@ -90,6 +89,6 @@
 }
 
 
-.box:hover .card-title{
+.cbox:hover .card-title{
     padding: 40px;
 }

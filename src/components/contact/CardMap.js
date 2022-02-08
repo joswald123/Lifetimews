@@ -32,6 +32,6 @@ export default function CardMap() {
         //             </div>
         //         </div>
         //     </div> 
-              
+    
     )
 }
