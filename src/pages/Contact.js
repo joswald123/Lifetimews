@@ -8,34 +8,21 @@ import CardMap from '../components/contact/CardMap'
 import backgroundImg from '../images/officeAddressImg.PNG'
 
 
-//styles
-import "../components/contact/Contact.css"
-import Information from "../components/contact/Information";
-
-
 export default function Contact() {
   // History function
   return (
     <div className="contact">
       <div className="cover">
-        <img src={backgroundImg} alt='backgroundImg' className='w-100 h-60' />
+        <img src={backgroundImg} alt='backgroundImg' className='w-100' />
       </div>
 
       <div className="rowMap">
         <CardMap />
       </div>
 
-      <Information />
-
-      <div className="contactBox">
-        <div className="contactForm mx-auto">
-          <div className="imgForm"></div>
-          <div className="formRight">
-            <h3 className="contactTitles">Contact Me</h3>
+      
             <Form />
-          </div>
-        </div>
-      </div>
+          
 
 
     </div>

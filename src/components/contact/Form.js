@@ -40,43 +40,61 @@ export default function Form() {
 
 
     return (
-        <form ref={form} onSubmit={sendEmail}>
-            <input
-                className="field"
-                type="text"
-                id="fname"
-                name="first_name"
-                placeholder="Your name.."
-            />
+        <div className="contactBox">
+            <div className="contactForm mx-auto">
+                <div className="imgForm"></div>
+                <div className="formRight">
+                    <h4 className="contactTitles">Contact Us</h4>
+                    <div className="info">
+                        <p>Send Us a Message.</p>
+                        <p>Please complete the Contact Form and we'll be in touch.</p>
+                        <p>The data on this form is submitted and transmitted via a secure connection.</p>
+                    </div>
 
-            <input
-                className="field"
-                type="text"
-                id="lname"
-                name="last_name"
-                placeholder="Your last name.."
-            />
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input
+                            className="field"
+                            type="text"
+                            id="fname"
+                            name="first_name"
+                            placeholder="Name..."
+                            required
+                        />
 
-            <input
-                className="field"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Your email"
-            />
+                        <input
+                            className="field"
+                            type="text"
+                            id="lname"
+                            name="last_name"
+                            placeholder="last Name..."
+                            required
+                        />
 
-            <textarea
-                className="field"
-                id="subject"
-                name="message"
-                placeholder="Write something.."
-            ></textarea>
-            <input
-                className="btnForm"
-                type="submit"
-                value="Submit"
-            />
-        </form>
+                        <input
+                            className="field"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email..."
+                            required
+                        />
+
+                        <textarea
+                            className="field"
+                            id="subject"
+                            name="message"
+                            placeholder="Write Your Message..."
+                            required
+                            ></textarea>
+                        <input
+                            className="btnForm"
+                            type="submit"
+                            value="Submit"
+                        />
+                    </form>
+                </div>
+            </div>
+        </div>
     );
 }
 
