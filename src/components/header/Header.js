@@ -28,8 +28,8 @@ export default function Header() {
             <img
               alt=""
               src={logo}
-              width="250"
-              height="70"
+              width="220"
+              height="50"
               className="d-inline-block align-top"
             />{" "}
           </Navbar.Brand>
