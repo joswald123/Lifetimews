@@ -127,3 +127,26 @@ li {
     width: 11vw;
     background: rgba(255, 255, 255, 1);
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .broker{
+        width: 15vw;
+    }
+    
+    .broker:hover {
+        width: 16vw;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 425px) {
+    .broker{
+        width: 25vw;       
+        padding: 5px 5px;
+    }
+    
+    .broker:hover {
+        width: 26vw;
+    }
+}
