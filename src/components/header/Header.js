@@ -61,6 +61,14 @@ export default function Header() {
 
               {/*  */}
               <NavDropdown title={servicesTitle} id="basic-nav-dropdown" >
+                <NavDropdown.Item
+                  as={NavLink}
+                  onClick={() => setExpanded(false)}
+                  to="/services"
+                >
+                  All Services
+                </NavDropdown.Item>
+                
                 {services.map((dat) => (
                   <NavDropdown.Item
                     as={NavLink}
@@ -74,13 +82,7 @@ export default function Header() {
                     {dat.title}
                   </NavDropdown.Item>
                 ))}
-                <NavDropdown.Item
-                  as={NavLink}
-                  onClick={() => setExpanded(false)}
-                  to="/services"
-                >
-                  All Services
-                </NavDropdown.Item>
+
               </NavDropdown>
               {/*  */}
 

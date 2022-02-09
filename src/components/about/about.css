@@ -28,7 +28,7 @@ img {
 .welcome .post .post__img {
     min-width: 15rem;
     max-width: 15rem;
-    height: 22rem;
+    height: auto;
     transform: translateX(-6rem);
     position: relative;
 }
@@ -63,7 +63,7 @@ img {
 
     .welcome .post .post__img {
         min-width: 13rem;
-        max-width: 13rem;       
+        max-width: 13rem;      
         transform: translateX(-4rem);
     }
     .welcome .post .post__info {

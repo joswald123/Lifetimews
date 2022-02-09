@@ -24,6 +24,9 @@ a.active {
 .basic-nav-dropdown {
     text-transform: capitalize;
 }
+.dropdown-item {
+    text-transform: lowercase;
+}
 
 .dropdown-item:hover {
     color: #9CA30C !important;
@@ -36,4 +39,10 @@ a.active {
 
 .dropdown-item.active {
     background-color: #ffffff !important;
+}
+
+@media screen and (max-width: 985px){
+	header nav a {
+		text-align: center;
+	}
 }
