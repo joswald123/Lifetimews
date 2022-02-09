@@ -11,7 +11,7 @@ export default function AboutCard({ title, img, content }) {
                     <img src={img} alt={title} />
                 </div>
                 <div className="post__info">
-                    <h2 className="title_h2">{title}</h2>
+                    <h2 className="title_h2 mb-4 mt-3">{title}</h2>
 
                     {content}
 

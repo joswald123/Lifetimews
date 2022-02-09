@@ -1,7 +1,7 @@
 //  Asset images
 import imageGermaine from '../../images/germaine.jpg'
 import imageJeannette from '../../images/Jeannette.jpg'
-import imageJuliana from '../../images/germaine.jpg'
+import imageJuliana from '../../images/Juliana.png'
 
 // Components
 import Germaine from './Germaine'

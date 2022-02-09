@@ -5,22 +5,14 @@ function Juliana() {
     return (
         <div>
             <p  className='post__text'>
-                Jeannette Guthrie is the Administrative Assistant to Germaine Cordes.  Jeannette holds a Bachelor of Arts degree in Psychology from
-                the California State Univesity Hayward, CA.  Jeannette has worked with venture-financed companies in the high technology sector for
-                more than fifteen years serving as an Office Manager, HR Representative, and Administrative Assistant in the Silicon Valley.
+                Juliana Oswald joined the team as an Administrative Assistant to Germaine Cordes in 2020. Juliana holds a degree 
+                in International Business from the University Cooperative of Colombia.  She grew up in Bogota, Colombia, and is 
+                fluent in English and Spanish. 
             </p>
             <p  className='post__text'>
-                Jeannette is sensitive to and maintains confidentiality, is well organized and detail oriented.  She has with a strong sense of job
-                ownership to provide quality work in a timely manner.  In her spare time Jeannette volunteers at a crisis center.
-            </p>
-            <p  className='post__text'>
-                Jeannette Guthrie is the Administrative Assistant to Germaine Cordes.  Jeannette holds a Bachelor of Arts degree in Psychology from
-                the California State Univesity Hayward, CA.  Jeannette has worked with venture-financed companies in the high technology sector for
-                more than fifteen years serving as an Office Manager, HR Representative, and Administrative Assistant in the Silicon Valley.
-            </p>
-            <p  className='post__text'>
-                Jeannette is sensitive to and maintains confidentiality, is well organized and detail oriented.  She has with a strong sense of job
-                ownership to provide quality work in a timely manner.  In her spare time Jeannette volunteers at a crisis center.
+                Juliana moved to the United States when she finished her degree in 2016. Most of her work experience is in the 
+                Accounting department. One of her passions is coding. She completed Bootcamps, including Berkeley Extension 
+                University as a Full-stack developer. 
             </p>
         </div>
     )
