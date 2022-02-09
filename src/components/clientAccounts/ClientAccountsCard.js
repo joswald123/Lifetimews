@@ -14,8 +14,9 @@ export default function ClientAccountsCard() {
     return (
 
         <div>
-            <div>
-            <h1 className='title_h1 mt-3 pt-5'>Clients Accounts</h1>
+            <div className='login'>
+            <h1 className='title_h1 mt-3 pt-5'>Client Login</h1>
+            <p className='login_info'> Please click on the icons below for the service you wish to access. </p>
             </div>
             <div className='container__cards'>
             <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>

@@ -106,7 +106,7 @@ export default function Header() {
                   isActive ? activeClassName : undefined
                 }
               >
-                Client Accounts
+                Client Login
               </Nav.Link>
 
               <Nav.Link
