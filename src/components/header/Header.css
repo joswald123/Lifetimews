@@ -24,9 +24,6 @@ a.active {
 .basic-nav-dropdown {
     text-transform: capitalize;
 }
-.dropdown-item {
-    text-transform: lowercase;
-}
 
 .dropdown-item:hover {
     color: #9CA30C !important;

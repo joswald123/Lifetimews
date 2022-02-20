@@ -26,7 +26,7 @@ export default function Header() {
         <Container fluid>
           <Navbar.Brand href="/" className="mx-auto">
             <img
-              alt=""
+              alt="Home"
               src={logo}
               width="240"
               height="50"

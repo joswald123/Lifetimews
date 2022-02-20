@@ -19,42 +19,42 @@ const servicesTitle = 'What We Do';
 const services = [
     {
         id: 1,
-        title: 'COMPREHENSIVE FINANCIAL PLANNING',
+        title: 'Comprehensive Financial Planning',
         img: imgFinancial,
         link: 'financialPlanning',
         content: <FinancialPlanning />
     },
     {
         id: 2,
-        title: 'RETIREMENT INCOME PLANNING',
+        title: 'Retirement Income Planning',
         img: imgRetirement,
         link: 'retirementPlanning',
         content: <RetirementPlanning />
     },
     {
         id: 3,
-        title: 'CASH, DEBT AND RISK MANAGEMENT',
+        title: 'Cash, Debt And Risk Management',
         img: imgCash,
         link: 'cashManagement',
         content: <CashManagement />
     },
     {
         id: 4,
-        title: 'INVESTMENTS MANAGEMENT',
+        title: 'Investments Management',
         img: imgInvestment,
         link: 'investmentManagement',
         content: <InvestmentManagement />
     },
     {
         id: 5,
-        title: 'ESTATE PLANNING',
+        title: 'Estate Planning',
         img: imgEstate,
         link: 'estatePlanning',
         content: <EstatePlanning />
     },
     {
         id: 6,
-        title: 'FINANCIAL PLANNING FOR BUSINESS OWNERS',
+        title: 'Financial Planning For Business Owners',     
         img: imgBusiness,
         link: 'businessOwner',
         content: <Business />

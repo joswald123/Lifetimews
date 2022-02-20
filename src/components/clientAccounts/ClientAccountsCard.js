@@ -15,47 +15,47 @@ export default function ClientAccountsCard() {
 
         <div>
             <div className='login'>
-            <h1 className='title_h1 mt-3 pt-5'>Client Login</h1>
-            <p className='login_info'> Please click on the icons below for the service you wish to access. </p>
+                <h1 className='title_h1 mt-3 pt-5'>Client Login</h1>
+                <p className='login_info'> Please click on the icons below for the service you wish to access. </p>
             </div>
             <div className='container__cards'>
-            <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
-                <div className='cbox'>
-                    <div className='cover'>
-                        <img src={imageAssetMark} width={250} height={150} />
-                        <div className='img_back'></div>
+                <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
+                    <div className='cbox'>
+                        <div className='cover'>
+                            <img src={imageAssetMark} width={250} height={150} alt="" />
+                            <div className='img_back'></div>
+                        </div>
+                        <h2 className='box-title'>AssetMark</h2>
+
                     </div>
-                    <h2 className='box-title'>AssetMark</h2>
+                </a>
 
-                </div>
-            </a>
+                <a href={"https://www.netxinvestor.com/nxi/login"}>
+                    <div className='cbox'>
+                        <div className='cover'>
+                            <img src={imageSecurities} width={250} height={150} alt="" />
+                            <div className='img_back'></div>
+                        </div>
+                        <h2 className='box-title'>Securities America</h2>
 
-            <a href={"https://www.netxinvestor.com/nxi/login"}>
-                <div className='cbox'>
-                    <div className='cover'>
-                        <img src={imageSecurities} width={250} height={150} />
-                        <div className='img_back'></div>
                     </div>
-                    <h2 className='box-title'>Securities America</h2>
-
-                </div>
-            </a>
+                </a>
 
 
-            <a href={"https://my.voya.com/voyassoui/index.html?domain=voyaretirement.voya.com#/login-pweb"}>
-                <div className='cbox'>
-                    <div className='cover'>
-                        <img src={imageVoya} width={250} height={150} />
-                        <div className='img_back'></div>
+                <a href={"https://my.voya.com/voyassoui/index.html?domain=voyaretirement.voya.com#/login-pweb"}>
+                    <div className='cbox'>
+                        <div className='cover'>
+                            <img src={imageVoya} width={250} height={150} alt="" />
+                            <div className='img_back'></div>
+                        </div>
+                        <h2 className='box-title'>Voya Financial</h2>
+
                     </div>
-                    <h2 className='box-title'>Voya Financial</h2>
+                </a>
 
-                </div>
-            </a>
-
+            </div>
         </div>
-        </div>
-        
+
 
 
     )

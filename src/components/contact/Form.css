@@ -78,12 +78,7 @@ textarea{
 .btnForm{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #612a65;
-	color: #fff;
 	font-size: 1.1rem;
-	border: none;
-	outline: none;
-	cursor: pointer;
 	transition: .3s;
 }
 

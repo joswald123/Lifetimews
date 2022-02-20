@@ -66,7 +66,7 @@ export default function Form() {
                             type="text"
                             id="lname"
                             name="last_name"
-                            placeholder="last Name..."
+                            placeholder="Last Name..."
                             required
                         />
 
@@ -87,7 +87,7 @@ export default function Form() {
                             required
                             ></textarea>
                         <input
-                            className="btnForm"
+                            className="btn btnForm"
                             type="submit"
                             value="Submit"
                         />

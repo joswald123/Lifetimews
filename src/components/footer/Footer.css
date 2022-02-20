@@ -1,9 +1,9 @@
 /* Footer */
 footer {
     width: 100%;
-    background-color:#612a65;
+    background-color:var(--secondary);
     color: #eee;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 0 1rem;
     
     /* display: grid;
     place-content: center;
@@ -51,14 +51,21 @@ footer li a:hover {
 }
 
 footer .disclosureText {
+    font-size: 12px;
     text-align: justify;
-    text-justify: inter-word;
+    /* text-justify: inter-word; */
     color: #fff;
-    margin: 15px 0 15px;
 }
 
-footer a {
+footer .disclosureText a{
+    font-weight: bold;
+    color: white;
     text-decoration-line: none;
+    font-size: 14px !important;
+}
+
+footer .disclosureText a:hover{
+    color: var(--primary);
 }
 
 footer li.contactText  {
@@ -153,7 +160,6 @@ i {
     footer .contactTextCol{
         width: 100%;
         height: auto;
-        font-size: 1.2rem;
         margin-top: 20px;
     }
 
@@ -163,8 +169,13 @@ i {
     }
 
     footer .disclosureText {
-        margin: 10px;
         word-spacing: 0;
+    }
+    
+}
+@media screen and (max-width: 380px){
+    .container .content .email{
+        font-size: 0.8rem !important;
     }
     
 }
