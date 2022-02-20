@@ -2,17 +2,17 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap';
 
 // img Carouser
-import Retirement from '../../images/Retirement pic.jpg';
-import Peace from '../../images/Peace pic.jpg';
-import Waterbridge from '../../images/Waterbridge pic.png';
+import Beach from '../../images/Beach pic.png';
+import Peace from '../../images/Peace pic.png';
+import Pathway from '../../images/Pathway pic.png';
 
 // Assets
 import './Carousel.css';
 
 // Description slider
-const descriptionRetirementSlider = 'Retirement Redefined Guiding You Every Step of The Way';
-const descriptionPeaceSlider = 'Helping You Achieve Financial Independence…';
-const descriptionWaterbridgeSlider = 'Holistic Financial Planning';
+const descriptionBeachSlider = 'Retirement Redefined Guiding You Every Step of The Way';
+const descriptionPeaceSlider = 'Holistic Financial Planning';
+const descriptionPathwaySlider = 'Chart Your Path Towards Financial Independence…';
 
 export default function Carousell() {
     return (
@@ -21,12 +21,12 @@ export default function Carousell() {
                 
                     <img
                         className="d-block w-100"
-                        src={Retirement}
+                        src={Beach}
                         alt="First slide"
                     />
                 
                 <Carousel.Caption>
-                    <h4>{descriptionRetirementSlider}</h4>
+                    <h4>{descriptionBeachSlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -46,13 +46,13 @@ export default function Carousell() {
                 
                     <img
                         className="d-block w-100"
-                        src={Waterbridge}
+                        src={Pathway}
                         alt="Third slide"
                     />
                 
 
                 <Carousel.Caption>
-                    <h4>{descriptionWaterbridgeSlider}</h4>
+                    <h4>{descriptionPathwaySlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

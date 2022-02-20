@@ -38,8 +38,22 @@ a.active {
     background-color: #ffffff !important;
 }
 
+@media screen and (min-width: 1400px){
+	.navbar-brand {
+		width: 300px !important;
+        height: auto;
+        margin-left: 50px !important;
+	}
+}
+
 @media screen and (max-width: 985px){
 	header nav a {
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.navbar-brand {
+		width: 180px !important;
 	}
 }

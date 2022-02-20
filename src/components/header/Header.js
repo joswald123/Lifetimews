@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo2.png";
 
 // NavDropdown Services - What we do
 import { getAllServices, getServicesTitle } from "../../data/services/services";
@@ -28,8 +28,8 @@ export default function Header() {
             <img
               alt="Home"
               src={logo}
-              width="240"
-              height="50"
+              width="260"
+              height="60"
               className="d-inline-block align-top"
             />{" "}
           </Navbar.Brand>
