@@ -3,7 +3,7 @@ footer {
     width: 100%;
     background-color:var(--secondary);
     color: #eee;
-    padding: 3rem 1rem 0 1rem;
+    padding: 2rem 1rem 0 1rem;
     
     /* display: grid;
     place-content: center;
@@ -17,27 +17,11 @@ footer .container{
     
 }
 
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 0 0 0;
-
-}
-
-footer li {
-    padding: .2rem;
-    
-}
-
-footer li a {
-    color: #fff !important;
-    text-decoration-line: none;
-}
-
-footer li a:hover {
-    padding-bottom: 5px;
-    border-bottom: 3px solid var(--primary);
+footer .whiteLogo {
+    display:flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom {
@@ -50,10 +34,13 @@ footer li a:hover {
     margin-bottom: 1rem;
 }
 
+footer .disclosure {
+    margin-top: 20px;
+}
+
 footer .disclosureText {
     font-size: 12px;
     text-align: justify;
-    /* text-justify: inter-word; */
     color: #fff;
 }
 
@@ -136,10 +123,9 @@ i {
         width: 100%;
         height: auto;
     }
-
-    footer li a:hover {
-        padding-bottom: 3px;
-        border-bottom: 3px solid #9CA30C;
+  
+    footer .whiteLogo {
+        margin-top: 20px;
     }
 }
 
@@ -173,11 +159,22 @@ i {
     }
     
 }
+
 @media screen and (max-width: 380px){
     .container .content .email{
         font-size: 0.8rem !important;
     }
-    
+
+    footer .whiteLogo img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    footer .whiteLogo {
+        width: 100%;
+    }
 }
 
 /* End Footer */

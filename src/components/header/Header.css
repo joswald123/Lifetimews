@@ -38,9 +38,9 @@ a.active {
     background-color: #ffffff !important;
 }
 
-@media screen and (min-width: 1400px){
-	.navbar-brand {
-		width: 300px !important;
+@media screen and (min-width: 1440px){
+	.navbar-brand img{
+		width: 310px !important;
         height: auto;
         margin-left: 50px !important;
 	}
@@ -53,7 +53,7 @@ a.active {
 }
 
 @media screen and (max-width: 320px){
-	.navbar-brand {
+	.navbar-brand img{
 		width: 180px !important;
 	}
 }
