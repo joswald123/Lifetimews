@@ -15,7 +15,7 @@ export default function MultipleCard(info) {
                         <article key={dat.id}>
                             <img src={dat.img} alt={dat.title} />
                             <div className="text">
-                                <h3 className='mt-4 mb-4'>{dat.title}</h3>                              
+                                <h2 className='card-title mt-2 mb-2'>{dat.title}</h2>                              
                                 <Link
                                     className='btn'
                                     to={"/services/" + dat.link}

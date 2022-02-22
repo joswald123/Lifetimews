@@ -40,7 +40,7 @@ a.active {
 
 @media screen and (min-width: 1440px){
 	.navbar-brand img{
-		width: 310px !important;
+		width: 300px !important;
         height: auto;
         margin-left: 50px !important;
 	}

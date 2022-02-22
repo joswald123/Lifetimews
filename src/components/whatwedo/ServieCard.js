@@ -8,7 +8,7 @@ export default function ServiceCard({ title, img, content }) {
                 <div className='card-container'>
                     <div className='header'>
                         <a href='#'>
-                            <img src={img} alt={title}/>
+                            <img src={img} alt=""/>
                             
                         </a>
                     </div>

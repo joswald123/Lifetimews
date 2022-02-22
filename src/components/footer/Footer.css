@@ -156,8 +156,7 @@ i {
 
     footer .disclosureText {
         word-spacing: 0;
-    }
-    
+    }  
 }
 
 @media screen and (max-width: 380px){

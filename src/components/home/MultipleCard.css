@@ -41,11 +41,12 @@
     text-align: justify ;
 }
 
-.text h3 {
+.text .card-title {
     text-transform: uppercase;
     text-align: center ;
     font-size: var(--font-size-title-h4);
 }
+
 @media screen and (min-width: 1600px) {
     .serviceGrid {
         grid-template-columns: repeat(4, 1fr);

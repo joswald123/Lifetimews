@@ -9,16 +9,13 @@ import "./client.css"
 
 export default function ClientAccountsCard() {
 
-
-
     return (
-
         <div>
             <div className='login'>
                 <h1 className='title_h1 mt-3 pt-5'>Client Login</h1>
                 <p className='login_info'> Please click on the icons below for the service you wish to access. </p>
             </div>
-            <div className='container__cards'>
+            <div className='container-cards'>
                 <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
                     <div className='cbox'>
                         <div className='cover'>
@@ -26,7 +23,6 @@ export default function ClientAccountsCard() {
                             <div className='img_back'></div>
                         </div>
                         <h2 className='box-title'>AssetMark</h2>
-
                     </div>
                 </a>
 
@@ -37,7 +33,6 @@ export default function ClientAccountsCard() {
                             <div className='img_back'></div>
                         </div>
                         <h2 className='box-title'>Securities America</h2>
-
                     </div>
                 </a>
 
@@ -49,14 +44,9 @@ export default function ClientAccountsCard() {
                             <div className='img_back'></div>
                         </div>
                         <h2 className='box-title'>Voya Financial</h2>
-
                     </div>
                 </a>
-
             </div>
         </div>
-
-
-
     )
 }
