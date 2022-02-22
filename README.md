@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Front-end project created with React framework. It is an information website that work in the financial field for business and individuals in California. With a partnert we improved the apperence of the original website working with: React, javaScript, Css, Bootstrap, EmailJs.
+Front-end project. It is an information website that works in the financial field for businesses and individuals in California. With a partner, we improved the appearance of the original website working with: React, javaScript, CSS, Bootstrap, EmailJs.
 
 ![Logo](src/images/logo.png)
 
