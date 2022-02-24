@@ -14,23 +14,21 @@ import "./business.css";
 
 export default function BusinessCard() {
     return (
-        <div>
+        <div className="container-business">
             <div>
-                <h1 className="title_h1 mt-3 pt-5">Business Relationships</h1>
+                <h1 className="title_h1 mt-5">Business Relationships</h1>
             </div>
 
-            <div className="mainContainerCard">
+            <div className="containerCard">
                 <div className="theCard">
                     <div className="theFront">
                         <img
-                            src={imageAdvisor}
-                            width={250}
-                            height={150}
-                            alt="AdvisorGroup"
+                            src={imageAdvisor}                   
+                            alt="Logo AdvisorGroup"
                         />
-                        <div className="img_back_business"></div>
+                    
                     </div>
-                    <div className="theBack1">
+                    <div className="theBack">
                         <AdvisorGroup />
                     </div>
                 </div>
@@ -38,14 +36,12 @@ export default function BusinessCard() {
                 <div className="theCard">
                     <div className="theFront">
                         <img
-                            src={imageSecurities}
-                            width={250}
-                            height={150}
-                            alt="SecuritiesAmerica"
+                            src={imageSecurities}                            
+                            alt="Logo SecuritiesAmerica"
                         />
-                        <div className="img_back_business"></div>
+                    
                     </div>
-                    <div className="theBack2">
+                    <div className="theBack">
                         <SecuritiesAmerica />
                     </div>
                 </div>
@@ -53,53 +49,16 @@ export default function BusinessCard() {
                 <div className="theCard">
                     <div className="theFront">
                         <img
-                            src={imageAssetMark}
-                            width={250}
-                            height={150}
-                            alt="AssetMark"
-                        />
-                        <div className="img_back_business"></div>
+                            src={imageAssetMark}                            
+                            alt="Logo AssetMark"
+                        />                  
                     </div>
-                    <div className="theBack3">
+                    <div className="theBack">
                         <AssetMark />
                     </div>
                 </div>
             </div>
         </div>
-
-        // <div>
-        //     <div>
-        //         <h1 className='title_h1 mt-3 pt-5'>Business Relationships</h1>
-        //     </div>
-        //     <div className='container-cards'>
-        //         <div className='cbox'>
-        //             <div className='cover'>
-        //                 <img src={imageAdvisor} width={250} height={150} alt="" />
-        //                 <div className='img_back_business'></div>
-        //             </div>
-        //             <div className='box-body'>
-        //                 <AdvisorGroup />
-        //             </div>
-        //         </div>
-        //         <div className='cbox'>
-        //             <div className='cover'>
-        //                 <img src={imageSecurities} width={250} height={150} alt="" />
-        //                 <div className='img_back_business'></div>
-        //             </div>
-        //             <div className='box-body'>
-        //                 <SecuritiesAmerica />
-        //             </div>
-        //         </div>
-        //         <div className='cbox'>
-        //             <div className='cover'>
-        //                 <img src={imageAssetMark} width={250} height={150} alt="" />
-        //                 <div className='img_back_business'></div>
-        //             </div>
-        //             <div className='box-body'>
-        //                 <AssetMark />
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
+       
     );
 }

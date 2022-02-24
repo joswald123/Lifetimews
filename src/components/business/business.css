@@ -1,89 +1,55 @@
+.container-business {
+    width: 90%;
+    max-width: 1200px;  
+    min-height: 100%;
+    margin: auto;   
+}
 
-.mainContainerCard {
-    
-    max-width: 1200px;
-    height: 700px;
-    /* max-height: 1000px; */
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
+.container-business .containerCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.container-business .containerCard .theCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
     justify-content: center;
-    
+    align-items: center;
 }
 
-.theCard {
-    width: 350px;
-    height: 600px;
-    margin-left: 20px;
-    float: left;
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
-    /* transition: transform .5s linear 0s; */
+.container-business .containerCard .theCard:hover {
+    border: 1px solid var(--primary);
 }
 
-
-.theCard:hover{
-    transform: rotateY(180deg);
+.container-business .containerCard .theCard .theBack {
+    margin: 10px;
 }
 
-.theCard .theFront {
-    position: absolute;
-    width: 100%;
-    /* height: 100%; */
-    backface-visibility: hidden;
-    background: #fff;
-    color: #333;
-    border-radius: 20px;
+@media  screen and (max-width: 768px) {
+
+    .container-business .containerCard .theCard {
+        grid-template-columns: 1fr;
+    }
+
+    .container-business .containerCard .theCard .theFront{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.theBack1 {
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    padding: 10px 10px 10px 10px;
-    backface-visibility: hidden;
-    background: #fafafa;
-    color: #333;
-    transform: rotateY(180deg);
-    text-align: center;
-}
+@media  screen and (max-width: 480px) {
+    .container-business {
+        width: 100%;
+    }
 
-.theBack2 {
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    padding: 10px 10px 10px 10px;
-    backface-visibility: hidden;
-    background: #fafafa;
-    color: #333;
-    transform: rotateY(180deg);
-    text-align: center;
-}
-.theBack3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 10px 10px 10px 10px;
-    backface-visibility: hidden;
-    background: #fafafa;
-    color: #333;
-    transform: rotateY(180deg);
-    text-align: center;
-}
-.mainContainerCard .theCard .img_back_business {
-    width: 100%;
-    height: 200px;
-    /* position: absolute; */
-    bottom: -80px;
-    left: 0;
-    background-size: cover;
-    border-radius: 20px;
-    transition: all 400ms;
-    text-align: center;
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-    
+    .container-business .containerCard .theCard .theFront img{
+        width: 90%;
+    }
 }

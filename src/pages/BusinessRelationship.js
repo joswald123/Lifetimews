@@ -3,7 +3,6 @@ import BusinessCard from '../components/business/BusinessCard'
 
 export default function BusinessRelationship() {
 
-
     return (
 
         <div>

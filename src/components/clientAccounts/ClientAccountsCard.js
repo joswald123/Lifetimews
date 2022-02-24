@@ -2,7 +2,7 @@ import React from 'react'
 
 //  Img card
 import imageVoya from '../../images/voya.png'
-import imageSecurities from '../../images/Securities.png'
+import imageSecurities from '../../images/SecuritiesClient.png'
 import imageAssetMark from '../../images/AssetMark.png'
 
 import "./client.css"
@@ -10,42 +10,41 @@ import "./client.css"
 export default function ClientAccountsCard() {
 
     return (
-        <div>
-            <div className='login'>
-                <h1 className='title_h1 mt-3 pt-5'>Client Login</h1>
-                <p className='login_info'> Please click on the icons below for the service you wish to access. </p>
+        <div className='container-clientAccount'>
+            <div className='login mt-5'>
+                <h1 className='title_h1'>Client Login</h1>
+                <p> Please click on the icons below for the service you wish to access. </p>
             </div>
-            <div className='container-cards'>
-                <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
-                    <div className='cbox'>
-                        <div className='cover'>
-                            <img src={imageAssetMark} width={250} height={150} alt="" />
-                            <div className='img_back'></div>
+            <div className='container-cards mb-5'>
+                <div className='cards'>
+                    <a href={"https://www.ewealthmanager.com/eWMLogin/account/login/"}>
+                        <div className='cbox'>
+                            <div className='cover'>
+                                <img src={imageAssetMark} alt="Logo AssetMark" />
+                            </div>
                         </div>
-                        <h2 className='box-title'>AssetMark</h2>
-                    </div>
-                </a>
+                    </a>
+                </div>
 
-                <a href={"https://www.netxinvestor.com/nxi/login"}>
-                    <div className='cbox'>
-                        <div className='cover'>
-                            <img src={imageSecurities} width={250} height={150} alt="" />
-                            <div className='img_back'></div>
+                <div className='cards'>
+                    <a href={"https://www.netxinvestor.com/nxi/login"}>
+                        <div className='cbox'>
+                            <div className='cover'>
+                                <img src={imageSecurities} alt="Logo Securities America" />
+                            </div>
                         </div>
-                        <h2 className='box-title'>Securities America</h2>
-                    </div>
-                </a>
+                    </a>
+                </div>
 
-
-                <a href={"https://my.voya.com/voyassoui/index.html?domain=voyaretirement.voya.com#/login-pweb"}>
-                    <div className='cbox'>
-                        <div className='cover'>
-                            <img src={imageVoya} width={250} height={150} alt="" />
-                            <div className='img_back'></div>
+                <div className='cards'>
+                    <a href={"https://my.voya.com/voyassoui/index.html?domain=voyaretirement.voya.com#/login-pweb"}>
+                        <div className='cbox'>
+                            <div className='cover'>
+                                <img src={imageVoya} alt="Logo Voya Financial" />
+                            </div>
                         </div>
-                        <h2 className='box-title'>Voya Financial</h2>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     )
