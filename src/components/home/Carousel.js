@@ -10,9 +10,9 @@ import Pathway from '../../images/Pathway pic.png';
 import './Carousel.css';
 
 // Description slider
-const descriptionBeachSlider = 'Retirement Redefined Guiding You Every Step of The Way';
+const descriptionBeachSlider = 'Retirement Redefined-Guiding You Every Step of The Way';
 const descriptionPeaceSlider = 'Holistic Financial Planning';
-const descriptionPathwaySlider = 'Chart Your Path Towards Financial Independence…';
+const descriptionPathwaySlider = 'Create Your Path Towards Financial Independence…';
 
 export default function Carousell() {
     return (
