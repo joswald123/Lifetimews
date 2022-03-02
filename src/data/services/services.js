@@ -4,7 +4,7 @@ import imgRetirement from '../../images/retirement_planning.png'
 import imgCash from '../../images/cash_management.png'
 import imgInvestment from '../../images/investment_management.png'
 import imgEstate from '../../images/estate_planning.png'
-import imgBusiness from '../../images/business_planning.jpg'
+import imgBusiness from '../../images/business_planning.png'
 
 // component
 import FinancialPlanning from './FinancialPlanning'

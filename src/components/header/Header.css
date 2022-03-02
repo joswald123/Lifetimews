@@ -52,6 +52,12 @@ a.active {
 	}
 }
 
+@media screen and (max-width: 350px){
+	.navbar-brand img{
+		width: 200px !important;
+	}
+}
+
 @media screen and (max-width: 320px){
 	.navbar-brand img{
 		width: 180px !important;
