@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Front-end project. It is an information website that works in the financial field for businesses and individuals in California. With a partner, we improved the appearance of the original website working with: React, javaScript, CSS, Bootstrap, EmailJs.
 
-![Logo](src/images/logo.png)
+![Logo](src/images/logo2.png)
 
 Live view: https://lifetimecapital.herokuapp.com/
 
