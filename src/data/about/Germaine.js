@@ -5,7 +5,7 @@ function Germaine() {
     return (
         <div>
             <p className='post__text'>
-                Germaine Cordes dedicates her practice to developing tailored solutions to help her clients achieve 
+                Germaine Cordes dedicates her practice to developing tailored solutions designed to help her clients achieve 
                 their goals and financial independence.
             </p>
             <p className='post__text'>

@@ -48,7 +48,8 @@ export default function Footer() {
             <div className="disclosure">
               <p className="disclosureText">
                 Germaine C. Cordes, ChFC® is a Registered Representative offering
-                securities through Securities America, Inc. Member <a href='https://www.finra.org/#/' target="_blank">FINRA/SIPC</a> and
+                securities through Securities America, Inc. Member <a href='https://www.finra.org/#/' target="_blank">FINRA /</a>
+                <a href='https://www.SIPC.org' target="_blank"> SIPC </a>and
                 an Investment Advisor Representative offering advisory services
                 through Securities America Advisors, Inc. Lifetime Capital
                 Financial Group and the Securities America companies are separate
