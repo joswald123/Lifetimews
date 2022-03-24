@@ -1,6 +1,7 @@
 {
   "name": "lifetimecapitalws",
   "version": "0.1.0",
+  "homepage":"https://www.lifetimecapital.com/",
   "private": true,
   "proxy": "http://localhost:3004/",
   "dependencies": {
