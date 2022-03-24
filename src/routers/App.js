@@ -7,7 +7,7 @@ import Contact from '../pages/Contact';
 import BusinessRelationship from '../pages/BusinessRelationship';
 import ClientAccounts from '../pages/ClientAccounts';
 import WhatWeDo from '../pages/WhatWeDo';
-import ErrorPage from '../pages/ErrorPage';
+import E404 from '../pages/404';
 import Service from '../pages/Service';
 import Layout from '../components/Layout';
 import { useLayoutEffect } from 'react';
@@ -38,7 +38,7 @@ export default function App() {
             <Route path="services" element={<WhatWeDo />} />
             <Route path="services/:serviceId" element={<Service />} />
 
-            <Route path="*" element={<ErrorPage />} />
+            <Route path="*" element={<E404 />} />
             {/* <Route path="*" element={ <Navigate replace to="/" /> }/> */}
           </Route>
         </Routes>
