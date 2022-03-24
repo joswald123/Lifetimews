@@ -16,8 +16,7 @@ export default function Form() {
     function sendEmail(e) {
         e.preventDefault();
 
-        // emailjs.sendForm('service_d28nmvz', 'template_i4gxbkl', form.current, 'user_JIk8SfrGAqA2uYzmqAeXh')
-        emailjs.sendForm('service_c1au3dn', 'template_boxhcv7', form.current, 'user_cfPKeygtI64xSzQa8OooC')
+        emailjs.sendForm('service_3uduq5h', 'template_mwtvs7y', form.current, 'wp_c0vyMs3aodT_Ip')
             .then((result) => {
                 console.log(result.text);
                 // clean form data
