@@ -15,8 +15,7 @@
 }
 
 .serviceGrid > article {
-    width: 22rem;
-    max-width: 30rem;
+    max-width: 32rem;
     background: #ffffff;
     border: none;
     box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -47,23 +46,11 @@
     font-size: var(--font-size-title-h4);
 }
 
-@media screen and (min-width: 1600px) {
-    .serviceGrid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
 @media screen and (max-width: 1068px) {
     .serviceGrid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-/* @media (max-width: 878px) {
-    .serviceGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
 
 @media (max-width: 700px) {
     .serviceGrid {
