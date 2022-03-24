@@ -6,7 +6,7 @@ Front-end project. It is an information website that works in the financial fiel
 
 ![Logo](src/images/logo2.png)
 
-Live view: https://lifetimecapital.herokuapp.com/
+Live view: https://lifetimecapital.com
 
 
 ### `npm run dev`
