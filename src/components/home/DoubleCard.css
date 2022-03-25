@@ -1,40 +1,76 @@
-.philosophy .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 6rem;
+.container-philosophy {
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
 }
 
-.philosophy .box-container .box{
-    max-width: 49rem;
-    flex:1 1 30rem;
-    background:#fff;
-    border-radius: .5rem;
-    border:.1rem solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    margin:1.5rem;
-    padding:1rem 2rem;
-    border-radius: .5rem;
+.philosophyGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 50px;
+}
+
+.philosophyGrid>article {
+    object-fit: cover;
+    background: #ffffff;
+    border: none;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
     text-align: center;
-    transition: .2s linear;
+    transition: transform .3s;
 }
 
-.philosophy .box-container .box img{
-    width: 20rem;
+.philosophyGrid>article:hover {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, .3);
 }
 
-.philosophy .box-container .box h3{
-    /* font-size: 2rem; */
+.philosophyGrid>article img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.philosophyGrid>article h3 {
     font-size: var(--font-size-title-h4);
-    color:#333;
+    color: #333;
     padding-top: 1rem;
-    
 }
 
-.philosophy .box-container .box p{
+.philosophyGrid>article p {
     font-size: var(--font-size-text);
-    color:#666;
-    padding: 1rem 0;
+    color: #000000;
+    padding: 0 1.5rem 1rem 1.5rem;
     text-align: justify;
+}
+
+@media screen and (max-width: 1068px) {
+    .philosophyGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .philosophyGrid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .philosophyGrid>article {
+        text-align: center;
+        padding: 0rem;
+        min-width: 10rem;
+        max-width: 22rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-philosophy {
+        width: 100%;
+    }
 }
