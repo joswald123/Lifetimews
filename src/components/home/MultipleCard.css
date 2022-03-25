@@ -1,21 +1,19 @@
-.servicesHome {
-    width: 100%;
+.container-service{
+    width: 90%;
+    max-width: 1200px;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 .serviceGrid { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    align-items: center;
+    margin-bottom: 50px;
 }
 
 .serviceGrid > article {
-    max-width: 32rem;
+    object-fit: cover;
     background: #ffffff;
     border: none;
     box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -31,13 +29,15 @@
 
 .serviceGrid > article img {
     width: 100%;
+    height: auto;
+    margin: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .text {
     padding: 0 20px 20px;
-    text-align: justify ;
+    text-align: justify;
 }
 
 .text .card-title {
@@ -52,16 +52,22 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .serviceGrid {
-        max-width: 20rem;
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
 
     .serviceGrid > article {
         text-align: center;
         padding: 0rem;
         min-width: 10rem;
-        max-width: 20rem;
+        max-width: 22rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-service{
+        width: 100%;
     }
 }

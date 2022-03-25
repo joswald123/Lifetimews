@@ -7,25 +7,23 @@ export default function MultipleCard(info) {
     const { data } = info;
 
     return (
-        <div>
+        <div className='container-service'>
             <h1 className="title_h1 mt-5 mb-3">{title}</h1>
-            <div className="servicesHome">
-                <main className="serviceGrid">
-                    {data.map((dat) => (
-                        <article key={dat.id}>
-                            <img src={dat.img} alt={dat.title} />
-                            <div className="text">
-                                <h2 className='card-title mt-2 mb-2'>{dat.title}</h2>                              
-                                <Link
-                                    className='btn'
-                                    to={"/services/" + dat.link}
-                                >
-                                    Read More 
-                                </Link>
-                            </div>
-                        </article>
-                    ))}
-                </main>
+            <div className="serviceGrid">
+                {data.map((dat) => (
+                    <article key={dat.id}>
+                        <img src={dat.img} alt={dat.title} />
+                        <div className="text">
+                            <h2 className='card-title mt-2 mb-2'>{dat.title}</h2>
+                            <Link
+                                className='btn'
+                                to={"/services/" + dat.link}
+                            >
+                                Read More
+                            </Link>
+                        </div>
+                    </article>
+                ))}
             </div>
         </div>
     )
