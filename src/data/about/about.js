@@ -1,5 +1,5 @@
 //  Asset images
-import imageGermaine from '../../images/germaine.jpg'
+import imageGermaine from '../../images/germaineAbout.png'
 import imageJeannette from '../../images/Jeannette.jpg'
 import imageJuliana from '../../images/Juliana.png'
 
