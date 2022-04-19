@@ -21,12 +21,12 @@ export default function Carousell() {
                 
                     <img
                         className="d-block w-100"
-                        src={Beach}
+                        src={Pathway}
                         alt="First slide"
                     />
                 
                 <Carousel.Caption>
-                    <h4>{descriptionBeachSlider}</h4>
+                    <h4>{descriptionPathwaySlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -46,13 +46,13 @@ export default function Carousell() {
                 
                     <img
                         className="d-block w-100"
-                        src={Pathway}
+                        src={Beach}
                         alt="Third slide"
                     />
                 
 
                 <Carousel.Caption>
-                    <h4>{descriptionPathwaySlider}</h4>
+                    <h4>{descriptionBeachSlider}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
