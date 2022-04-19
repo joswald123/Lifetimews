@@ -1,5 +1,5 @@
 import './App';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom'
 
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -38,8 +38,8 @@ export default function App() {
             <Route path="services" element={<WhatWeDo />} />
             <Route path="services/:serviceId" element={<Service />} />
 
-            <Route path="*" element={<E404 />} />
-            {/* <Route path="*" element={ <Navigate replace to="/" /> }/> */}
+            {/* <Route path="*" element={<E404 />} /> */}
+            <Route path="*" element={ <Navigate replace to="/" /> }/>
           </Route>
         </Routes>
 
