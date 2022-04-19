@@ -9,14 +9,13 @@ export default function Form() {
     // SweetAlert2 
     const MySwal = withReactContent(Swal)
 
-
     // sendEmail 
     const form = useRef();
 
     function sendEmail(e) {
         e.preventDefault();
-
-        emailjs.sendForm('service_3uduq5h', 'template_mwtvs7y', form.current, 'wp_c0vyMs3aodT_Ip')
+        
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
             .then((result) => {
                 console.log(result.text);
                 // clean form data
