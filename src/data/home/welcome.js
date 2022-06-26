@@ -1,5 +1,5 @@
 //  Asset images
-import imageGermaine from '../../images/germaine.jpg'
+import imageGermaine from '../../images/germaine.png'
 
 // Components
 import Welcome from './WelcomeText'
