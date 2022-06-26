@@ -17,7 +17,7 @@ export default function WhatWeDo() {
     };
     return (
         <div>
-            <h1 className='title_h1'>{servicesTitle}</h1>
+            <h1 className='title_h1 mt-4'>{servicesTitle}</h1>
 
             <div className='box-search'>
                 <div className='search'>
