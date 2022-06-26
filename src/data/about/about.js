@@ -1,12 +1,12 @@
 //  Asset images
 import imageGermaine from '../../images/germaineAbout.png'
 import imageJeannette from '../../images/Jeannette.jpg'
-import imageJuliana from '../../images/Juliana.png'
+//import imageJuliana from '../../images/Juliana.png'
 
 // Components
 import Germaine from './Germaine'
 import Jeannette from './Jeannette'
-import Juliana from './Juliana'
+//import Juliana from './Juliana'
 
 const aboutUsTitle = 'Our Team';
 
@@ -23,12 +23,12 @@ const aboutUs = [
         img: imageJeannette,
         content: <Jeannette />
     },
-    {
-        id: 3,
-        title: 'ABOUT JULIANA OSWALD',
-        img: imageJuliana,
-        content: <Juliana />
-    }
+    // {
+    //     id: 3,
+    //     title: 'ABOUT JULIANA OSWALD',
+    //     img: imageJuliana,
+    //     content: <Juliana />
+    // }
 ];
 
 export function getAboutUsTitle() {
