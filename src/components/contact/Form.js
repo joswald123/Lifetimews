@@ -11,7 +11,7 @@ export default function Form() {
 
     // sendEmail 
     const form = useRef();
-    console.log(`${process.env.REACT_APP_SERVICE_ID}`);
+    
     function sendEmail(e) {
         e.preventDefault();
         
