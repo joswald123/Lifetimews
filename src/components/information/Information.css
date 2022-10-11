@@ -1,0 +1,88 @@
+/* Css information btns */
+.floatingInformation{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 10vw;
+    min-width: 100px;
+    height: auto;
+    z-index: 10;
+}
+
+.information {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.information-btns {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(242, 242, 242, 0.1);
+    border: 1px solid rgba(0, 129, 209, 0.2);
+    color: #090909;
+    min-height: 30px;
+    min-width: 100px;
+    margin: 5px 0;
+    transition: all 1.5s ease;
+}
+
+.btnSecurities {
+    font-size: 12px;
+    color: #0082D1;
+}
+
+.information-image{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background: rgba(242, 242, 242, 0.1);
+    border: 1px solid rgba(0, 129, 209, 0.2);
+    border-radius: 5px;
+    padding: 10px 5px;
+    transition: all 1.5s ease;
+}
+
+.information-image img{
+    width: 100%;
+    height: auto;
+}
+
+.information-image:hover, .information-btns:hover{
+    border: 1px solid #0082D1;
+    transition: all 1s ease;
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 1);
+    color: #0082D1;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .floatingInformation{
+        width: 15vw;
+    }
+    
+    .information-image:hover, .information-btns:hover{
+        width: 16vw;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 425px) {
+    .floatingInformation{
+        width: 25vw;       
+        padding: 5px 5px;
+    }
+    
+    .information-image:hover, .information-btns:hover{
+        width: 26vw;
+    }
+}

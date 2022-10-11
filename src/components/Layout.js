@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Footer from './footer/Footer';
 import Header from './header/Header';
 
-import brokercheck from '../images/brokercheck_finra.png'
+import Information from './information/Information';
 
 
 export default function Layout() {
@@ -14,11 +14,7 @@ export default function Layout() {
             <main>
                 <Outlet />
 
-                <div className='broker'>
-                    <a href="https://brokercheck.finra.org/" target='_blank'>
-                        <img src={brokercheck} alt="broker check logo" />
-                    </a>
-                </div>
+                <Information/>
 
             </main>
 
